@@ -22,3 +22,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | [carriageway](carriageway.md) | comprises |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+lay-by&page-title=lay-by&page-path=terms%2Flay-by.md)
+

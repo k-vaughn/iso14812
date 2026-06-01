@@ -13,3 +13,8 @@
 - 3.3.7 — [Facility Terms](../patterns/Facility Terms.md)
 - 3.3.8 — [Kerbside Usage Terms](../patterns/Kerbside Usage Terms.md)
 - 3.3.9 — [Road Equipment Terms](../patterns/Road Equipment Terms.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Infrastructure+Terms&page-title=Infrastructure+Terms&page-path=terms%2Fgroups%2FInfrastructure+Terms.md)
+

@@ -36,3 +36,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [unconnected](unconnected.md) | subClassOf |
 | [unequipped](unequipped.md) | subClassOf |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+off-grid&page-title=off-grid&page-path=terms%2Foff-grid.md)
+

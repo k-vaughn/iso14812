@@ -22,3 +22,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | subClassOf | operationalModel |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+sequential&page-title=sequential&page-path=terms%2Fsequential.md)
+

@@ -36,3 +36,8 @@ History note: Introduced in ISO/TS 14812:2022.
 | --- | --- |
 | subClassOf | fieldSystem |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ITS+roadside+equipment&page-title=ITS+roadside+equipment&page-path=terms%2FITS+roadside+equipment.md)
+

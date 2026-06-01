@@ -44,3 +44,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [moderately-low vehicle speed](moderately-low vehicle speed.md) | subClassOf |
 | [ultra-low vehicle speed](ultra-low vehicle speed.md) | subClassOf |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+speed&page-title=speed&page-path=terms%2Fspeed.md)
+

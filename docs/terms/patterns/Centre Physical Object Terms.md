@@ -14,3 +14,8 @@ Clause: 3.2.2
 - 3.2.2.6 — [traffic management central system](../traffic management central system.md)
 - 3.2.2.7 — [traffic regulation central system](../traffic regulation central system.md)
 - 3.2.2.8 — [transport information central system](../transport information central system.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Centre+Physical+Object+Terms&page-title=Centre+Physical+Object+Terms&page-path=terms%2Fpatterns%2FCentre+Physical+Object+Terms.md)
+

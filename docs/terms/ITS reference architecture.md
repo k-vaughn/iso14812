@@ -24,3 +24,8 @@ History note: Updated Note 2 to entry in 2025 to reference a more modern archite
 | --- | --- |
 | subClassOf | referenceArchitecture |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ITS+reference+architecture&page-title=ITS+reference+architecture&page-path=terms%2FITS+reference+architecture.md)
+

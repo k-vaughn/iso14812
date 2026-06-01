@@ -34,3 +34,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [multiple carriageway](multiple carriageway.md) | comprises |
 | [single carriageway](single carriageway.md) | comprises |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+carriageway&page-title=carriageway&page-path=terms%2Fcarriageway.md)
+

@@ -11,3 +11,8 @@ Clause: 3.5.7
 - 3.5.7.3 — [private customer model](../private customer model.md)
 - 3.5.7.4 — [government customer model](../government customer model.md)
 - 3.5.7.5 — [peer-to-peer](../peer-to-peer.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Contractual+Model+Terms&page-title=Contractual+Model+Terms&page-path=terms%2Fpatterns%2FContractual+Model+Terms.md)
+

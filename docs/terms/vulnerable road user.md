@@ -20,3 +20,8 @@ History note: Introduced in ISO/TS 14812:2025
 | --- | --- |
 | subClassOf | roadUser |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+vulnerable+road+user&page-title=vulnerable+road+user&page-path=terms%2Fvulnerable+road+user.md)
+

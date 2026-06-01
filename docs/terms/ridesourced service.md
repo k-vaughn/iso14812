@@ -27,3 +27,8 @@ History note: Introduced in ISO/TS 14812:2022
 | attrTransportItem | has passengers |
 | subClassOf | sharedTransportService |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ridesourced+service&page-title=ridesourced+service&page-path=terms%2Fridesourced+service.md)
+

@@ -22,3 +22,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [duration](duration.md) | startsAt |
 | [link](link.md) | connects |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+instant&page-title=instant&page-path=terms%2Finstant.md)
+

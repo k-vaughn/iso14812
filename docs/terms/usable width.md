@@ -18,3 +18,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | comprises | some trafficLane |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+usable+width&page-title=usable+width&page-path=terms%2Fusable+width.md)
+

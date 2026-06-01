@@ -23,3 +23,8 @@ History note: Introduced in ISO/TS 14812:2022
 | constitutes | some laneSegment |
 | subClassOf | link |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+lane+link&page-title=lane+link&page-path=terms%2Flane+link.md)
+

@@ -18,3 +18,8 @@ History note: Introduced in ISO/TS 14812:2025
 | --- | --- |
 | encodedReferenceFor | exactly 1 owl::Thing |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+anonymized+vehicle+reference&page-title=anonymized+vehicle+reference&page-path=terms%2Fanonymized+vehicle+reference.md)
+

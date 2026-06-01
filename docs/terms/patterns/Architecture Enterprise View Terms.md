@@ -16,3 +16,8 @@ Clause: 3.1
 - 3.1.6.9 — [include](../include.md)
 - 3.1.6.10 — [extend](../extend.md)
 - 3.1.12.3 — [role](../role.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Architecture+Enterprise+View+Terms&page-title=Architecture+Enterprise+View+Terms&page-path=terms%2Fpatterns%2FArchitecture+Enterprise+View+Terms.md)
+

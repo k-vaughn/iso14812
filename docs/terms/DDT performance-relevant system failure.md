@@ -14,3 +14,8 @@ Note 1 to entry: The malfunction can be internal to the driving automation syste
 
 History note: Introduced in ISO/TS 14812:2022
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+DDT+performance-relevant+system+failure&page-title=DDT+performance-relevant+system+failure&page-path=terms%2FDDT+performance-relevant+system+failure.md)
+

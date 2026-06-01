@@ -16,3 +16,8 @@ Clause: 3.3.6
 - 3.3.6.8 — [junction at grade](../junction at grade.md)
 - 3.3.6.9 — [interchange](../interchange.md)
 - 3.3.6.10 — [grade separated manoeuvre](../grade separated manoeuvre.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Junction+Terms&page-title=Junction+Terms&page-path=terms%2Fpatterns%2FJunction+Terms.md)
+

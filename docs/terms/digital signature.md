@@ -14,3 +14,8 @@ Source: ISO/IEC 2382:2015
 
 History note: Introduced in ISO/TS 14812:2025
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+digital+signature&page-title=digital+signature&page-path=terms%2Fdigital+signature.md)
+

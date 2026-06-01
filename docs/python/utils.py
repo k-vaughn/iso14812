@@ -7,7 +7,10 @@ from pathlib import Path
 from typing import Optional, Iterable, Tuple, List
 from rdflib import Graph, RDF, RDFS, OWL, URIRef, Literal, BNode
 from rdflib.namespace import DC, DCTERMS, SKOS, RDFS
-from urllib.parse import urljoin
+from urllib.parse import urlencode, urljoin
+
+PAGE_FEEDBACK_ISSUE_TEMPLATE = "page-feedback.yml"
+DEFAULT_REPOSITORY_URL = "https://github.com/ISO-TC204/iso14812"
 
 log = logging.getLogger("ofn2mkdocs")
 
@@ -288,6 +291,48 @@ def collection_list_item(clause_display: str, label: str, link: str) -> str:
     return f"- [{label}]({link})\n"
 
 
+def get_repository_url(mkdocs_path: str | None = None) -> str:
+    """Return the GitHub repository URL from mkdocs.yml repo_url, if set."""
+    path = mkdocs_path or os.path.join(os.getcwd(), "mkdocs.yml")
+    try:
+        import yaml
+
+        with open(path, encoding="utf-8") as f:
+            config = yaml.safe_load(f) or {}
+        repo_url = (config.get("repo_url") or "").strip().rstrip("/")
+        if repo_url:
+            return repo_url
+    except OSError:
+        pass
+    return DEFAULT_REPOSITORY_URL
+
+
+def page_feedback_issue_url(
+    page_title: str,
+    page_path: str,
+    repo_url: str | None = None,
+) -> str:
+    """GitHub new-issue URL for the page-feedback template with page fields prefilled."""
+    base = f"{(repo_url or get_repository_url()).rstrip('/')}/issues/new"
+    params = {
+        "template": PAGE_FEEDBACK_ISSUE_TEMPLATE,
+        "title": f"[Page feedback] {page_title}",
+        "page-title": page_title,
+        "page-path": page_path,
+    }
+    return f"{base}?{urlencode(params)}"
+
+
+def page_feedback_markup(
+    page_title: str,
+    page_path: str,
+    repo_url: str | None = None,
+) -> str:
+    """Horizontal rule and link inviting feedback on the current page."""
+    url = page_feedback_issue_url(page_title, page_path, repo_url)
+    return f"\n---\n\n[Comment on this page]({url})\n\n"
+
+
 def format_breadcrumb(crumbs: list[tuple[str, str | None]]) -> str:
     """Render a breadcrumb trail; None link means current page (plain text)."""
     parts = []
@@ -482,7 +527,12 @@ def get_ontology_for_uri(uri_str: str, ns_to_ontology: dict) -> str:
             return ont_name
     return None
 
-def update_concept_registry(script_dir, registry, term_collection_map: dict | None = None):
+def update_concept_registry(
+    script_dir,
+    registry,
+    term_collection_map: dict | None = None,
+    repo_url: str | None = None,
+):
     root_dir = os.getcwd()
     docs_dir = os.path.join(root_dir, "docs")
     if not os.path.isdir(docs_dir):
@@ -510,6 +560,13 @@ def update_concept_registry(script_dir, registry, term_collection_map: dict | No
             f.write(
                 f"| [{cls_name}]({term_page_link(cls_name)}) | {normalize_registry_description(info['description'])} |\n"
             )
+        f.write(
+            page_feedback_markup(
+                "Concept Registry",
+                concept_registry_nav_path(),
+                repo_url,
+            )
+        )
     log.info("Updated %s with %d entries", registry_path, len(registry))
     
 def fauxClass(cls_name: str) -> bool:

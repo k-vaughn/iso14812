@@ -14,3 +14,8 @@ Source: ISO/IEC/IEEE 8802-21, adapted from
 
 History note: Introduced in ISO/TS 14812:2025
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+authenticator&page-title=authenticator&page-path=terms%2Fauthenticator.md)
+

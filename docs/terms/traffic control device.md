@@ -18,3 +18,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | subClassOf | roadEquipment |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+traffic+control+device&page-title=traffic+control+device&page-path=terms%2Ftraffic+control+device.md)
+

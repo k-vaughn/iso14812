@@ -30,3 +30,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | desiredResultsOf | some user |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+user+need&page-title=user+need&page-path=terms%2Fuser+need.md)
+

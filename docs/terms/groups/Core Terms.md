@@ -19,3 +19,8 @@
 - 3.1.13 — [Time Terms](../patterns/Time Terms.md)
 - 3.1.14 — [Information Security Terms](../patterns/Information Security Terms.md)
 - 3.1.15 — [Concept Realization Terms](../patterns/Concept Realization Terms.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Core+Terms&page-title=Core+Terms&page-path=terms%2Fgroups%2FCore+Terms.md)
+

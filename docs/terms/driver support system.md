@@ -28,3 +28,8 @@ History note: Introduced in ISO/TS 14812:2022
 | performsPartOf | some dynamicDrivingTask |
 | subClassOf | drivingAutomationSystem |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+driver+support+system&page-title=driver+support+system&page-path=terms%2Fdriver+support+system.md)
+

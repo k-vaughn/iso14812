@@ -36,3 +36,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [interchange](interchange.md) | subClassOf |
 | [junction at grade](junction at grade.md) | subClassOf |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+junction&page-title=junction&page-path=terms%2Fjunction.md)
+

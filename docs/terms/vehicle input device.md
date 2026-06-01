@@ -32,3 +32,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | subClassOf | materialEntity |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+vehicle+input+device&page-title=vehicle+input+device&page-path=terms%2Fvehicle+input+device.md)
+

@@ -42,3 +42,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [planning architecture](planning architecture.md) | subClassOf |
 | [reference architecture](reference architecture.md) | subClassOf |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+architecture&page-title=architecture&page-path=terms%2Farchitecture.md)
+

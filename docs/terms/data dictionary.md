@@ -20,3 +20,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | [data concept registry](data concept registry.md) | electronic [data dictionary](data dictionary.md) that follows precise documented rules for the registration and management of stored [data concepts](data concept.md) |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+data+dictionary&page-title=data+dictionary&page-path=terms%2Fdata+dictionary.md)
+

@@ -18,3 +18,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | characteristicOf | some dataConcept |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+meta-attribute&page-title=meta-attribute&page-path=terms%2Fmeta-attribute.md)
+

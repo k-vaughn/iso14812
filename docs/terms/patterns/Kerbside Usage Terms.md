@@ -12,3 +12,8 @@ Clause: 3.3.8
 - 3.3.8.4 — [parking space for permit holders](../parking space for permit holders.md)
 - 3.3.8.5 — [pick-up/drop-off area](../pick-updrop-off area.md)
 - 3.3.8.6 — [public transport vehicle stop](../public transport vehicle stop.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Kerbside+Usage+Terms&page-title=Kerbside+Usage+Terms&page-path=terms%2Fpatterns%2FKerbside+Usage+Terms.md)
+

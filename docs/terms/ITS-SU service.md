@@ -24,3 +24,8 @@ History note: Introduced in ISO/TS 14812:2022
 | fulfils | some its-suUserNeed |
 | subClassOf | service |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ITS-SU+service&page-title=ITS-SU+service&page-path=terms%2FITS-SU+service.md)
+

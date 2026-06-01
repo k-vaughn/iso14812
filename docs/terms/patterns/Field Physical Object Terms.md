@@ -13,3 +13,8 @@ Clause: 3.2.3
 - 3.2.3.5 — [connected unit](../connected unit.md)
 - 3.2.3.6 — [connected](../connected.md)
 - 3.2.3.7 — [connected vehicle](../connected vehicle.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Field+Physical+Object+Terms&page-title=Field+Physical+Object+Terms&page-path=terms%2Fpatterns%2FField+Physical+Object+Terms.md)
+

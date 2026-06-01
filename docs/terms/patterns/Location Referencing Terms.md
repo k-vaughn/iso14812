@@ -16,3 +16,8 @@ Clause: 3.4.2
 - 3.4.2.8 — [network location](../network location.md)
 - 3.4.2.9 — [geographic descriptor](../geographic descriptor.md)
 - 3.4.2.10 — [infrastructure descriptor](../infrastructure descriptor.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Location+Referencing+Terms&page-title=Location+Referencing+Terms&page-path=terms%2Fpatterns%2FLocation+Referencing+Terms.md)
+

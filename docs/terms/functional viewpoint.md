@@ -19,3 +19,8 @@ History note: Introduced in ISO/TS 14812:2022
 | governs | some functionalView |
 | subClassOf | architectureViewpoint |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+functional+viewpoint&page-title=functional+viewpoint&page-path=terms%2Ffunctional+viewpoint.md)
+

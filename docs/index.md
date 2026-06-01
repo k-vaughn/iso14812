@@ -6,3 +6,8 @@ A vocabulary defined for Intelligent Transport Systems and documented as a forma
 
 
 The formal definition of the terms is available in [TTL Syntax](itsVocabulary.ttl).
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ITS+Vocabulary&page-title=ITS+Vocabulary&page-path=index.md)
+

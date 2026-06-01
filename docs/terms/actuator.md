@@ -18,3 +18,8 @@ History note: Introduced in ISO/TS 14812:2025
 | --- | --- |
 | changesPropertyOf | some materialEntity |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+actuator&page-title=actuator&page-path=terms%2Factuator.md)
+

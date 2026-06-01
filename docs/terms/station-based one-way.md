@@ -18,3 +18,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | subClassOf | networkModel |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+station-based+one-way&page-title=station-based+one-way&page-path=terms%2Fstation-based+one-way.md)
+

@@ -18,3 +18,8 @@ Clause: 3.7.5
 - 3.7.5.10 — [moderate vehicle speed](../moderate vehicle speed.md)
 - 3.7.5.11 — [moderately-high vehicle speed](../moderately-high vehicle speed.md)
 - 3.7.5.12 — [high vehicle speed](../high vehicle speed.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Vehicle+Speed+Terms&page-title=Vehicle+Speed+Terms&page-path=terms%2Fpatterns%2FVehicle+Speed+Terms.md)
+

@@ -17,3 +17,8 @@ Clause: 3.1.3
 - 3.1.3.9 — [architecture model](../architecture model.md)
 - 3.1.3.10 — [element](../element.md)
 - 3.1.3.11 — [environment](../environment.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+General+Architecture+Terms&page-title=General+Architecture+Terms&page-path=terms%2Fpatterns%2FGeneral+Architecture+Terms.md)
+

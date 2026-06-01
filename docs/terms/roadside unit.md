@@ -28,3 +28,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | [connected vehicle roadside equipment](connected vehicle roadside equipment.md) | aggregates |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+roadside+unit&page-title=roadside+unit&page-path=terms%2Froadside+unit.md)
+

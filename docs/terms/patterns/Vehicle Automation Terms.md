@@ -23,3 +23,8 @@ Clause: 3.7.3
 - 3.7.3.15 — [ADS-equipped vehicle](../ADS-equipped vehicle.md)
 - 3.7.3.16 — [dual-mode vehicle](../dual-mode vehicle.md)
 - 3.7.3.17 — [ADS-dedicated vehicle](../ADS-dedicated vehicle.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Vehicle+Automation+Terms&page-title=Vehicle+Automation+Terms&page-path=terms%2Fpatterns%2FVehicle+Automation+Terms.md)
+

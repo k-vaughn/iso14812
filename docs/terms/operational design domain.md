@@ -28,3 +28,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | forAGiven | some drivingAutomationSystem |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+operational+design+domain&page-title=operational+design+domain&page-path=terms%2Foperational+design+domain.md)
+

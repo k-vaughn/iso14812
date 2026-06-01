@@ -24,3 +24,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | subClassOf | trafficLane |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+reserved+lane&page-title=reserved+lane&page-path=terms%2Freserved+lane.md)
+

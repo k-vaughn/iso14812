@@ -22,3 +22,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | subClassOf | speed |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ultra-low+vehicle+speed&page-title=ultra-low+vehicle+speed&page-path=terms%2Fultra-low+vehicle+speed.md)
+

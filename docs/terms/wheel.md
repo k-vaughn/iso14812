@@ -24,3 +24,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | [vehicle](vehicle.md) | has |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+wheel&page-title=wheel&page-path=terms%2Fwheel.md)
+

@@ -10,7 +10,7 @@ part of a paved [carriageway](carriageway.md) that is not a [traffic lane](traff
 
 Clause: 3.3.1.17
 
-EXAMPLE: n7e7d219b94e14015863ebd99c2f7c675b10
+EXAMPLE: n902d49f80fe4422680fb4b74ea8b63ceb10
 
 Note 1 to entry: Hardstanding can include edges of a hard shoulder outside of designated lane markings, slips for future connector [roads](road.md), etc.
 
@@ -21,4 +21,9 @@ History note: Introduced in ISO/TS 14812:2022
 | Referencing Term | Type of Reference |
 | --- | --- |
 | [carriageway](carriageway.md) | comprises |
+
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+hardstanding&page-title=hardstanding&page-path=terms%2Fhardstanding.md)
 

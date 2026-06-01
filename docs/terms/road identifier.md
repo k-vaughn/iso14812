@@ -24,3 +24,8 @@ History note: Introduced in ISO/TS 14812:2025
 | --- | --- |
 | identifies | some road |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+road+identifier&page-title=road+identifier&page-path=terms%2Froad+identifier.md)
+

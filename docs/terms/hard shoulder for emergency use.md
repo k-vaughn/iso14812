@@ -18,3 +18,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | operatingModeOf | some hardShoulder |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+hard+shoulder+for+emergency+use&page-title=hard+shoulder+for+emergency+use&page-path=terms%2Fhard+shoulder+for+emergency+use.md)
+

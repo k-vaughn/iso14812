@@ -16,3 +16,8 @@ Clause: 3.7.2
 - 3.7.2.8 — [vehicle registration plate identifier](../vehicle registration plate identifier.md)
 - 3.7.2.9 — [gross vehicle mass](../gross vehicle mass.md)
 - 3.7.2.10 — [gross vehicle mass rating](../gross vehicle mass rating.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Vehicle+Attribute+Terms&page-title=Vehicle+Attribute+Terms&page-path=terms%2Fpatterns%2FVehicle+Attribute+Terms.md)
+

@@ -26,3 +26,8 @@ History note: Introduced in ISO/TS 14812:2022
 | providesItsOwn | some fallback |
 | subClassOf | ads |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+level+5+ADS&page-title=level+5+ADS&page-path=terms%2Flevel+5+ADS.md)
+

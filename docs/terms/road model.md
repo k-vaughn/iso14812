@@ -22,3 +22,8 @@ History note: Introduced in ISO/TS 14812:2022
 | constitutes | some node |
 | represents | some roadNetwork |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+road+model&page-title=road+model&page-path=terms%2Froad+model.md)
+

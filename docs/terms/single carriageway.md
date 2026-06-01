@@ -25,3 +25,8 @@ History note: Introduced in ISO/TS 14812:2022
 | comprises | exactly 1 owl::Thing |
 | subClassOf | roadway |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+single+carriageway&page-title=single+carriageway&page-path=terms%2Fsingle+carriageway.md)
+

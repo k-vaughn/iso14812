@@ -18,3 +18,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | subClassOf | cooperative |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+fractional+ownership&page-title=fractional+ownership&page-path=terms%2Ffractional+ownership.md)
+

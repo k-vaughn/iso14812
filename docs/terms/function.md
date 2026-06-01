@@ -16,3 +16,8 @@ Note 1 to entry: A function transforms inputs into outputs that may include the 
 
 History note: Introduced in ISO/TS 14812:2022
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+function&page-title=function&page-path=terms%2Ffunction.md)
+

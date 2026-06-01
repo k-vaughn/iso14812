@@ -28,3 +28,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | [traffic control device](traffic control device.md) | [road equipment](road equipment.md) used to visually, audibly, or tangibly convey regulatory, advisory, or guidance information to [road users](road user.md) |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+road+equipment&page-title=road+equipment&page-path=terms%2Froad+equipment.md)
+

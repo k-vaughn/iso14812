@@ -38,3 +38,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [motorway](motorway.md) | subClassOf |
 | [service road](service road.md) | subClassOf |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+road&page-title=road&page-path=terms%2Froad.md)
+

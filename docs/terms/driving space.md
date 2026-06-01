@@ -23,3 +23,8 @@ History note: Introduced in ISO/TS 14812:2022
 | areaAbove | some roadway |
 | forMovementOf | some vehicle |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+driving+space&page-title=driving+space&page-path=terms%2Fdriving+space.md)
+

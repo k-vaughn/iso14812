@@ -32,3 +32,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | [spatial location](spatial location.md) | subClassOf |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+location&page-title=location&page-path=terms%2Flocation.md)
+

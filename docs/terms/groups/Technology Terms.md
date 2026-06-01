@@ -14,3 +14,8 @@
 - 3.2.8 — [Its Application Terms](../patterns/Its Application Terms.md)
 - 3.2.9 — [Its-s Application Process Terms](../patterns/Its-s Application Process Terms.md)
 - 3.2.10 — [Device Component Terms](../patterns/Device Component Terms.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Technology+Terms&page-title=Technology+Terms&page-path=terms%2Fgroups%2FTechnology+Terms.md)
+

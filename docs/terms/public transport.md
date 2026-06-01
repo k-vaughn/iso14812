@@ -30,3 +30,8 @@ History note: Introduced in ISO/TS 14812:2022
 | attrTransportItem | has passengers |
 | subClassOf | transportService |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+public+transport&page-title=public+transport&page-path=terms%2Fpublic+transport.md)
+

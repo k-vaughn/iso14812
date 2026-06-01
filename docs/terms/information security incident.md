@@ -14,3 +14,8 @@ Source: ISO/IEC 27035-1
 
 History note: Introduced in ISO/TS 14812:2025
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+information+security+incident&page-title=information+security+incident&page-path=terms%2Finformation+security+incident.md)
+

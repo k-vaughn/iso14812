@@ -59,3 +59,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | [speed](speed.md) | rateOfChangeOfPositionOf |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+material+entity&page-title=material+entity&page-path=terms%2Fmaterial+entity.md)
+

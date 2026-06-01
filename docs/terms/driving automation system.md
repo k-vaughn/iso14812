@@ -38,3 +38,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | performsPartOrAllOf | some dynamicDrivingTask |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+driving+automation+system&page-title=driving+automation+system&page-path=terms%2Fdriving+automation+system.md)
+

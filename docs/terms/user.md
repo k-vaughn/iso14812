@@ -40,3 +40,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [ITS user](ITS user.md) | subClassOf |
 | [transport user](transport user.md) | subClassOf |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+user&page-title=user&page-path=terms%2Fuser.md)
+

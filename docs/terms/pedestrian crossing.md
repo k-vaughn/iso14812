@@ -24,3 +24,8 @@ History note: Introduced in ISO/TS 14812:2025
 | --- | --- |
 | subClassOf | footpath |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+pedestrian+crossing&page-title=pedestrian+crossing&page-path=terms%2Fpedestrian+crossing.md)
+

@@ -32,3 +32,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | subClassOf | lane |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+traffic+lane&page-title=traffic+lane&page-path=terms%2Ftraffic+lane.md)
+
