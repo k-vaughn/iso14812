@@ -1,0 +1,22 @@
+[Home](../index.md) · [Vehicle Terms](groups/Vehicle Terms.md) · [Vehicle Component Terms](patterns/Vehicle Component Terms.md) · remote vehicle input device
+
+# remote vehicle input device
+
+[input device](input device.md) designed to be electronically [connected](connected.md) to a [vehicle](vehicle.md) even when the vehicle is not in close proximity
+
+<object type="image/svg+xml" data="../../diagrams/remote vehicle input device.dot.svg">
+    <img alt="remote vehicle input device Diagram" src="../../diagrams/remote vehicle input device.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.7.1.7
+
+Alternative preferred term: remote input device
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for remote vehicle input device
+
+| Property | Constraint |
+| --- | --- |
+| subClassOf | vehicleInputDevice |
+

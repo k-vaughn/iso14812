@@ -1,0 +1,20 @@
+[Home](../index.md) · [Core Terms](groups/Core Terms.md) · [Entity Terms](patterns/Entity Terms.md) · person
+
+# person
+
+[biological entity](biological entity.md) that is a human being
+
+<object type="image/svg+xml" data="../../diagrams/person.dot.svg">
+    <img alt="person Diagram" src="../../diagrams/person.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.1.1.6
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for person
+
+| Property | Constraint |
+| --- | --- |
+| subClassOf | biologicalEntity |
+

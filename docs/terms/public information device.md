@@ -1,0 +1,24 @@
+[Home](../index.md) · [Technology Terms](groups/Technology Terms.md) · [Personal Physical Object Terms](patterns/Personal Physical Object Terms.md) · public information device
+
+# public information device
+
+[personal system](personal system.md) that provides public access to [traveller](traveller.md) information
+
+<object type="image/svg+xml" data="../../diagrams/public information device.dot.svg">
+    <img alt="public information device Diagram" src="../../diagrams/public information device.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.2.4.4
+
+Alternative preferred term: ITS public information device
+
+EXAMPLE: Kiosk.
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for public information device
+
+| Property | Constraint |
+| --- | --- |
+| subClassOf | personalSystem |
+

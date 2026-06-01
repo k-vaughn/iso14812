@@ -1,0 +1,29 @@
+[Home](../index.md) · [Core Terms](groups/Core Terms.md) · [Data Concept Type Terms](patterns/Data Concept Type Terms.md) · interface dialogue
+
+# interface dialogue
+
+bi-directional communication sequence between two parties in accordance with predetermined protocols
+
+<object type="image/svg+xml" data="../../diagrams/interface dialogue.dot.svg">
+    <img alt="interface dialogue Diagram" src="../../diagrams/interface dialogue.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.1.11.6
+
+Admitted term: dialog
+
+Admitted term: dialogue
+
+Note 1 to entry: The term "dialog" represents the American English spelling.
+
+Note 2 to entry: The term "dialogue" can be used when the interface context is known.
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for interface dialogue
+
+| Property | Constraint |
+| --- | --- |
+| subClassOf | dataConcept |
+| uses | some message |
+

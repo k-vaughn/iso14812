@@ -1,0 +1,29 @@
+[Home](../index.md) · [Service Terms](groups/Service Terms.md) · [Generic Service Terms](patterns/Generic Service Terms.md) · service provider
+
+# service provider
+
+[entity](entity.md) that delivers one or more [services](service.md)
+
+<object type="image/svg+xml" data="../../diagrams/service provider.dot.svg">
+    <img alt="service provider Diagram" src="../../diagrams/service provider.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.5.1.2
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Specializations of service provider
+
+| Class | Description |
+| --- | --- |
+| [ITS service provider](ITS service provider.md) | [entity](entity.md) that delivers one or more [ITS services](ITS service.md) |
+| [ITS-SU service provider](ITS-SU service provider.md) | [ITS-SU](ITS-S unit.md) that delivers one or more [ITS-SU services](ITS-SU service.md) |
+| [transport provider](transport provider.md) | [entity](entity.md) that delivers one or more [transport services](transport service.md) |
+
+## Relationships for service provider
+
+| Property | Constraint |
+| --- | --- |
+| delivers | some service |
+| subClassOf | entity |
+

@@ -1,0 +1,25 @@
+[Home](../index.md) · [Service Terms](groups/Service Terms.md) · [Transport Service Terms](patterns/Transport Service Terms.md) · transport provider
+
+# transport provider
+
+[entity](entity.md) that delivers one or more [transport services](transport service.md)
+
+<object type="image/svg+xml" data="../../diagrams/transport provider.dot.svg">
+    <img alt="transport provider Diagram" src="../../diagrams/transport provider.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.5.2.2
+
+Alternative preferred term: provider
+
+Alternative preferred term: service provider
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for transport provider
+
+| Property | Constraint |
+| --- | --- |
+| delivers | some transportService |
+| subClassOf | serviceProvider |
+

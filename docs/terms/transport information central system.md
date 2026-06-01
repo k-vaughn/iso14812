@@ -1,0 +1,20 @@
+[Home](../index.md) · [Technology Terms](groups/Technology Terms.md) · [Centre Physical Object Terms](patterns/Centre Physical Object Terms.md) · transport information central system
+
+# transport information central system
+
+[centre system](central system.md) that provides information of interest to the travelling public
+
+<object type="image/svg+xml" data="../../diagrams/transport information central system.dot.svg">
+    <img alt="transport information central system Diagram" src="../../diagrams/transport information central system.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.2.2.8
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for transport information central system
+
+| Property | Constraint |
+| --- | --- |
+| subClassOf | centralSystem |
+

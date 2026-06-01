@@ -1,0 +1,25 @@
+[Home](../index.md) · [Vehicle Terms](groups/Vehicle Terms.md) · [Vehicle Automation Terms](patterns/Vehicle Automation Terms.md) · level 1 driving automation
+
+# level 1 driving automation
+
+[driver support system](driver support system.md) that provides either sustained lateral or sustained longitudinal [vehicle](vehicle.md) motion control within a specific [operational design domain](operational design domain.md) with the expectation that a conventional [driver](driver.md) completes the [dynamic driving task](dynamic driving task.md)
+
+<object type="image/svg+xml" data="../../diagrams/level 1 driving automation.dot.svg">
+    <img alt="level 1 driving automation Diagram" src="../../diagrams/level 1 driving automation.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.7.3.8
+
+Alternative preferred term: driver assistance
+
+Note 1 to entry: Other driving automation levels include [level 2 driving automation](level 2 driving automation.md), [level 3 ADS](level 3 ADS.md), [level 4 ADS](level 4 ADS.md), and [level 5 ADS](level 5 ADS.md).
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for level 1 driving automation
+
+| Property | Constraint |
+| --- | --- |
+| operatesWithinA | some operationalDesignDomain |
+| subClassOf | driverSupportSystem |
+

@@ -5,10 +5,10 @@ digraph {
 	edge [fontname=Arial fontsize=11]
 	{
 		rank=max
-		"physical object" [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER" PORT="e">physical object</TD></TR></TABLE>> URL="../classes/itsVocabulary__physical object.md" margin=0]
+		"physical object" [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER" PORT="e">physical object</TD></TR></TABLE>> margin=0]
 	}
-	resource [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">resource</TD></TR></TABLE>> URL="../resource/" margin=0 target=_top]
-	system [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">system</TD></TR></TABLE>> URL="../system/" margin=0 target=_top]
+	resource [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">resource</TD></TR></TABLE>> URL="../terms/resource/" margin=0 target=_top]
+	system [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">system</TD></TR></TABLE>> URL="../terms/system/" margin=0 target=_top]
 	subgraph cluster_associated {
 		label="" style=invis
 		Invis [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD></TD></TR></TABLE>> margin=0 style=invis]

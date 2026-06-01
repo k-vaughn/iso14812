@@ -5,9 +5,9 @@ digraph {
 	edge [fontname=Arial fontsize=11]
 	{
 		rank=max
-		"geographic point location" [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER" PORT="e">geographic point location</TD></TR></TABLE>> URL="../classes/itsVocabulary__geographic point location.md" margin=0]
+		"geographic point location" [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER" PORT="e">geographic point location</TD></TR></TABLE>> margin=0]
 	}
-	pointLocation [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">point location</TD></TR></TABLE>> URL="../point location/" margin=0 target=_top]
+	pointLocation [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">point location</TD></TR></TABLE>> URL="../terms/point location/" margin=0 target=_top]
 	subgraph cluster_associated {
 		label="" style=invis
 		Invis [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD></TD></TR></TABLE>> margin=0 style=invis]

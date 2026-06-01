@@ -1,0 +1,20 @@
+[Home](../index.md) · [Infrastructure Terms](groups/Infrastructure Terms.md) · [Junction Terms](patterns/Junction Terms.md) · egress lane
+
+# egress lane
+
+[traffic lane](traffic lane.md) designed for exiting a [junction](junction.md)
+
+<object type="image/svg+xml" data="../../diagrams/egress lane.dot.svg">
+    <img alt="egress lane Diagram" src="../../diagrams/egress lane.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.3.6.5
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for egress lane
+
+| Property | Constraint |
+| --- | --- |
+| exitFor | some junction |
+

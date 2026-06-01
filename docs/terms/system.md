@@ -1,0 +1,69 @@
+[Home](../index.md) · [Core Terms](groups/Core Terms.md) · [General System Terms](patterns/General System Terms.md) · system
+
+# system
+
+combination of interacting [elements](element.md) organized to achieve one or more stated purposes
+
+<object type="image/svg+xml" data="../../diagrams/system.dot.svg">
+    <img alt="system Diagram" src="../../diagrams/system.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.1.2.1
+
+Source: ISO/IEC/IEEE 15288:2015, 4.1.46, modified - Notes to entry removed.
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Specializations of system
+
+| Class | Description |
+| --- | --- |
+| [central system](central system.md) | [ITS component](ITS component.md) that provides application, management, and/or administrative functions from a centralized [location](location.md) [i.e. not at the [roadside](roadside.md)] |
+| [connected vehicle roadside equipment](connected vehicle roadside equipment.md) | [ITS roadside equipment](ITS roadside equipment.md) that perform [ITS services](ITS service.md) by exchanging electronic [messages](message.md) with nearby [connected vehicles](connected vehicle.md) and/or [personal systems](personal system.md) via short-range wireless technologies |
+| [cooperative ITS](cooperative ITS.md) | subset of [ITS](intelligent transport system.md) where information is shared among [ITS stations](ITS station.md) in a manner that enables its use by multiple ITS services [ITS service.md] |
+| [cooperative ITS credentials management system](cooperative ITS credentials management system.md) | [support system](support system.md) that enables trusted communications among [ITS components](ITS component.md) and protects data from unauthorized access |
+| [emergency management central system](emergency management central system.md) | [centre system](central system.md) that allows an [entity](entity.md) to manage and respond to crashes, events, disasters, evacuation orders and other incidents |
+| [field support equipment](field support equipment.md) | portable [field system](field system.md) used by field personnel to locally troubleshoot, initialize, reprogram and test infrastructure equipment |
+| [field system](field system.md) | infrastructure-based [ITS component](ITS component.md) located outside of a data centre that is designed to provide local processing or routing services while stationary |
+| [fleet and freight management central system](fleet and freight management central system.md) | [centre system](central system.md) that allows a fleet or freight operator to manage and control its personnel, equipment and/or freight |
+| [intelligent transport system](intelligent transport system.md) | [system](system.md) comprised of information, communication, sensor and control technologies and that is designed to benefit a [surface transport system](surface transport system.md) |
+| [ITS component](ITS component.md) | [physical object](physical object.md) that has been assigned one or more [functional objects](functional object.md) in the provision of one or more [ITS services](ITS service.md) |
+| [ITS on-board equipment](ITS on-board equipment.md) | [vehicle system](vehicle system.md) that provides all ITS functionality on-board the [vehicle](vehicle.md) |
+| [ITS roadside equipment](ITS roadside equipment.md) | [field system](field system.md) that performs localized [ITS services](ITS service.md) |
+| [maintenance and construction central management system](maintenance and construction central management system.md) | [centre system](central system.md) that allows an [entity](entity.md) to monitor and manage the construction and maintenance of [road](road.md) infrastructure |
+| [map provision system](map provision system.md) | [support system](support system.md) that provides map databases used to support [ITS services](ITS service.md) |
+| [nomadic device](nomadic device.md) | [personal information device](personal information device.md) that is taken with and can be accessed by the [traveller](traveller.md) during a journey |
+| [nomadic vehicle device](nomadic vehicle device.md) | [personal system](personal system.md) consisting of global navigation satellite system (GNSS) and/or wireless [modules](module.md) that are connected to a [vehicle](vehicle.md) during a trip |
+| [payment administration central system](payment administration central system.md) | [centre system](central system.md) that allows an [entity](entity.md) to manage financial transactions related to transportation, especially the electronic transfer of funds |
+| [personal information device](personal information device.md) | [personal system](personal system.md) that enables personal access to [traveller](traveller.md) information |
+| [personal system](personal system.md) | [ITS component](ITS component.md), other than a [vehicle system](vehicle system.md), that is used by a [person](person.md) in relation to a past, current or upcoming journey |
+| [physical object](physical object.md) | <physical view> abstraction of a [material entity](material entity.md) that interacts with other abstract material entities in the provision of [ITS services](ITS service.md) |
+| [public information device](public information device.md) | [personal system](personal system.md) that provides public access to [traveller](traveller.md) information |
+| [public transport central management system](public transport central management system.md) | [centre system](central system.md) that allows an [entity](entity.md) to manage the activities of a [public transport](public transport.md) agency |
+| [support system](support system.md) | [ITS component](ITS component.md) that provides services in support of one or more other ITS components |
+| [surface transport system](surface transport system.md) | [transport system](transport system.md) designed to move [material entities](material entity.md) across the surface or near-surface of the Earth |
+| [terminator](terminator.md) | [entity](entity.md) that is external to the [ITS service](ITS service.md) implementation but with which the implementation communicates either to obtain inputs or to which it can send outputs |
+| [traffic management central system](traffic management central system.md) | [centre system](central system.md) that monitors and controls traffic and the [road network](road network.md) |
+| [traffic regulation central system](traffic regulation central system.md) | [centre system](central system.md) that officially records traffic regulations in electronic form so that they can be distributed to other systems |
+| [transport information central system](transport information central system.md) | [centre system](central system.md) that provides information of interest to the travelling public |
+| [transport infrastructure](transport infrastructure.md) | system of [transport facilities](transport facility.md) and equipment needed for a transport system |
+| [transport system](transport system.md) | [system](system.md) of infrastructure [elements](element.md) and optionally [vehicles](vehicle.md) that are jointly designed to move [material entities](material entity.md) from an origin to a destination |
+| [vehicle system](vehicle system.md) | [ITS component](ITS component.md) that is installed as a component of a [vehicle](vehicle.md) |
+
+## Relationships for system
+
+| Property | Constraint |
+| --- | --- |
+| designedFor | some user |
+| exhibits | some architecture |
+| situatedIn | some environment |
+
+## References to system
+
+| Referencing Term | Type of Reference |
+| --- | --- |
+| [intelligent transport system](intelligent transport system.md) | subClassOf |
+| [physical object](physical object.md) | subClassOf |
+| [transport infrastructure](transport infrastructure.md) | subClassOf |
+| [transport system](transport system.md) | subClassOf |
+

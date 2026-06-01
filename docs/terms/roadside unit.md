@@ -1,0 +1,30 @@
+[Home](../index.md) · [Technology Terms](groups/Technology Terms.md) · [Field Physical Object Terms](patterns/Field Physical Object Terms.md) · roadside unit
+
+# roadside unit
+
+part of [connected vehicle roadside equipment](connected vehicle roadside equipment.md) that provides wireless connectivity to [vehicle systems](vehicle system.md) and/or [personal systems](personal system.md)
+
+<object type="image/svg+xml" data="../../diagrams/roadside unit.dot.svg">
+    <img alt="roadside unit Diagram" src="../../diagrams/roadside unit.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.2.3.4
+
+Alternative preferred term: ITS roadside unit
+
+Alternative preferred term: RSU
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for roadside unit
+
+| Property | Constraint |
+| --- | --- |
+| subClassOf | connectedUnit |
+
+## References to roadside unit
+
+| Referencing Term | Type of Reference |
+| --- | --- |
+| [connected vehicle roadside equipment](connected vehicle roadside equipment.md) | aggregates |
+
