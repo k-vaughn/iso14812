@@ -1,0 +1,20 @@
+[Home](../index.md) · [Technology Terms](groups/Technology Terms.md) · [Centre Physical Object Terms](patterns/Centre Physical Object Terms.md) · traffic management central system
+
+# traffic management central system
+
+[centre system](central system.md) that monitors and controls traffic and the [road network](road network.md)
+
+<object type="image/svg+xml" data="../../diagrams/traffic management central system.dot.svg">
+    <img alt="traffic management central system Diagram" src="../../diagrams/traffic management central system.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.2.2.6
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for traffic management central system
+
+| Property | Constraint |
+| --- | --- |
+| subClassOf | centralSystem |
+

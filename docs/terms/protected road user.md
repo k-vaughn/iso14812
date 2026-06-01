@@ -1,0 +1,24 @@
+[Home](../index.md) · [User Terms](groups/User Terms.md) · [Traveller Terms](patterns/Traveller Terms.md) · protected road user
+
+# protected road user
+
+[road user](road user.md) who is protected by the body of a motor vehicle that meets local safety regulations
+
+<object type="image/svg+xml" data="../../diagrams/protected road user.dot.svg">
+    <img alt="protected road user Diagram" src="../../diagrams/protected road user.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.6.1.6
+
+Admitted term: non-vulnerable road user
+
+EXAMPLE: [vehicle occupants](vehicle occupant.md)
+
+History note: Introduced in ISO/TS 14812:2025
+
+## Relationships for protected road user
+
+| Property | Constraint |
+| --- | --- |
+| subClassOf | roadUser |
+

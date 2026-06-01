@@ -1,0 +1,23 @@
+[Home](../index.md) · [Service Terms](groups/Service Terms.md) · [Shared Transport Service Terms](patterns/Shared Transport Service Terms.md) · taxi-share service
+
+# taxi-share service
+
+[commercial](commercial.md) [shared transport service](shared transport service.md) that transports [passengers](passenger.md) [concurrently](concurrent.md)
+
+<object type="image/svg+xml" data="../../diagrams/taxi-share service.dot.svg">
+    <img alt="taxi-share service Diagram" src="../../diagrams/taxi-share service.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.5.11.3
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for taxi-share service
+
+| Property | Constraint |
+| --- | --- |
+| attrFinancialModel | has commercial |
+| attrOperationalModel | has concurrent |
+| attrTransportItem | has passengers |
+| subClassOf | sharedTransportService |
+

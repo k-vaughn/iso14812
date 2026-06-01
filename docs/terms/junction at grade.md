@@ -1,0 +1,24 @@
+[Home](../index.md) · [Infrastructure Terms](groups/Infrastructure Terms.md) · [Junction Terms](patterns/Junction Terms.md) · junction at grade
+
+# junction at grade
+
+[junction](junction.md) without any [grade separated manoeuvres](grade separated manoeuvre.md)
+
+<object type="image/svg+xml" data="../../diagrams/junction at grade.dot.svg">
+    <img alt="junction at grade Diagram" src="../../diagrams/junction at grade.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.3.6.8
+
+Alternative preferred term: at-grade intersection
+
+Admitted term: grade junction
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for junction at grade
+
+| Property | Constraint |
+| --- | --- |
+| subClassOf | junction |
+

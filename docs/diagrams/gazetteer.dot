@@ -5,15 +5,14 @@ digraph {
 	edge [fontname=Arial fontsize=11]
 	{
 		rank=max
-		gazetteer [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER" PORT="e">gazetteer</TD></TR></TABLE>> URL="../classes/itsVocabulary__gazetteer.md" margin=0]
+		gazetteer [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER" PORT="e">gazetteer</TD></TR></TABLE>> URL="../terms/gazetteer/" margin=0]
 	}
 	subgraph cluster_associated {
 		label="" style=invis
 		Invis [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD></TD></TR></TABLE>> margin=0 style=invis]
-		spatialReference [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">spatial reference</TD></TR></TABLE>> URL="../spatial reference/" margin=0 target=_top]
+		spatialReference [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">spatial reference</TD></TR></TABLE>> URL="../terms/spatial reference/" margin=0 target=_top]
 	}
 	gazetteer -> Invis [style=invis]
 	Invis -> spatialReference [style=invis]
-	gazetteer -> spatialReference [label=" aggregates 
- «some»  " arrowhead=normal style=solid]
+	gazetteer -> spatialReference [label=" aggregates " arrowhead=normal style=solid]
 }

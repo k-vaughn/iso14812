@@ -4,460 +4,528 @@ site_description: A vocabulary defined for Intelligent Transport Systems and doc
 repo_url: https://github.com/ISO-TC204/iso14812
 nav:
 - Home: index.md
-- Alphabetical Listing: concept_registry.md
-- core Terms:
-  - architecture Communication View Terms:
-    - access layer: access layer.md
-    - application entity: application entity.md
-    - facilities layer: facilities layer.md
-    - ITS-S access layer: ITS-S access layer.md
-    - management entity: management entity.md
-    - security entity: security entity.md
-    - transnet layer: transnet layer.md
-  - architecture Enterprise View Terms:
-    - document: document.md
-    - enterprise object: enterprise object.md
-    - extend: extend.md
-    - formal coordination: formal coordination.md
-    - include: include.md
-    - informal coordination: informal coordination.md
-    - interaction: interaction.md
-    - relationship: relationship.md
-    - resource: resource.md
-    - role: role.md
-  - architecture Functional View Terms:
-    - data flow: data flow.md
-    - function: function.md
-    - process: process.md
-    - process specification: process specification.md
-  - architecture Physical View Terms:
-    - functional object: functional object.md
-    - information flow: information flow.md
-    - information transfer: information transfer.md
-    - ITS component: ITS component.md
-    - module: module.md
-    - physical object: physical object.md
-    - terminator: terminator.md
-  - architecture Type Terms:
-    - deployment architecture: deployment architecture.md
-    - ITS deployment architecture: ITS deployment architecture.md
-    - ITS planning architecture: ITS planning architecture.md
-    - ITS reference architecture: ITS reference architecture.md
-    - ITS-S reference architecture: ITS-S reference architecture.md
-    - planning architecture: planning architecture.md
-    - reference architecture: reference architecture.md
-  - architecture View Terms:
-    - communications view: communications view.md
-    - communications viewpoint: communications viewpoint.md
-    - enterprise view: enterprise view.md
-    - enterprise viewpoint: enterprise viewpoint.md
-    - functional view: functional view.md
-    - functional viewpoint: functional viewpoint.md
-    - physical view: physical view.md
-    - physical viewpoint: physical viewpoint.md
-  - concept Realization Terms:
-    - design: design.md
-    - implementation: implementation.md
-    - instance: instance.md
-    - realization: realization.md
-    - requirement: requirement.md
-    - requirements specification: requirements specification.md
-  - data Concept Management Terms:
-    - data concept: data concept.md
-    - data concept registry: data concept registry.md
-    - data dictionary: data dictionary.md
-    - meta-attribute: meta-attribute.md
-  - data Concept Type Terms:
-    - class: class.md
-    - data element: data element.md
-    - data frame: data frame.md
-    - interface dialogue: interface dialogue.md
-    - message: message.md
-    - value domain: value domain.md
-  - entity Terms:
-    - biological entity: biological entity.md
-    - entity: entity.md
-    - immaterial entity: immaterial entity.md
-    - material entity: material entity.md
-    - non-biological entity: non-biological entity.md
-    - person: person.md
-  - general Architecture Terms:
-    - architecture: architecture.md
-    - architecture description: architecture description.md
-    - architecture framework: architecture framework.md
-    - architecture model: architecture model.md
-    - architecture view: architecture view.md
-    - architecture viewpoint: architecture viewpoint.md
-    - concern: concern.md
-    - element: element.md
-    - environment: environment.md
-    - model kind: model kind.md
-    - stakeholder: stakeholder.md
-  - general System Terms:
-    - cooperative ITS: cooperative ITS.md
-    - intelligent transport system: intelligent transport system.md
-    - surface transport system: surface transport system.md
-    - system: system.md
-    - transport system: transport system.md
-  - information Security Terms:
-    - authentication: authentication.md
-    - authenticator: authenticator.md
-    - control: control.md
-    - cryptography: cryptography.md
-    - data privacy: data privacy.md
-    - digital signature: digital signature.md
-    - information security event: information security event.md
-    - information security incident: information security incident.md
-    - non-repudiation: non-repudiation.md
-    - objective: objective.md
-    - resilience: resilience.md
-    - risk: risk.md
-    - threat: threat.md
-    - transparency: transparency.md
-    - trustworthiness: trustworthiness.md
-    - vulnerability: vulnerability.md
-  - system Engineering Terms:
-    - scenario: scenario.md
-    - use case: use case.md
-  - time Terms:
-    - duration: duration.md
-    - instant: instant.md
-- technology Terms:
-  - centre Physical Object Terms:
-    - emergency management central system: emergency management central system.md
-    - fleet and freight management central system: fleet and freight management central
+- Alphabetical Listing: terms/concept_registry.md
+- Core Terms:
+  - terms/groups/Core Terms.md
+  - Architecture Enterprise View Terms:
+    - terms/patterns/Architecture Enterprise View Terms.md
+    - enterprise object: terms/enterprise object.md
+    - resource: terms/resource.md
+    - document: terms/document.md
+    - interaction: terms/interaction.md
+    - formal coordination: terms/formal coordination.md
+    - informal coordination: terms/informal coordination.md
+    - relationship: terms/relationship.md
+    - include: terms/include.md
+    - extend: terms/extend.md
+    - role: terms/role.md
+  - Entity Terms:
+    - terms/patterns/Entity Terms.md
+    - entity: terms/entity.md
+    - immaterial entity: terms/immaterial entity.md
+    - material entity: terms/material entity.md
+    - non-biological entity: terms/non-biological entity.md
+    - biological entity: terms/biological entity.md
+    - person: terms/person.md
+  - General System Terms:
+    - terms/patterns/General System Terms.md
+    - system: terms/system.md
+    - transport system: terms/transport system.md
+    - surface transport system: terms/surface transport system.md
+    - intelligent transport system: terms/intelligent transport system.md
+    - cooperative ITS: terms/cooperative ITS.md
+  - General Architecture Terms:
+    - terms/patterns/General Architecture Terms.md
+    - architecture: terms/architecture.md
+    - architecture description: terms/architecture description.md
+    - architecture framework: terms/architecture framework.md
+    - stakeholder: terms/stakeholder.md
+    - concern: terms/concern.md
+    - architecture viewpoint: terms/architecture viewpoint.md
+    - architecture view: terms/architecture view.md
+    - model kind: terms/model kind.md
+    - architecture model: terms/architecture model.md
+    - element: terms/element.md
+    - environment: terms/environment.md
+  - Architecture View Terms:
+    - terms/patterns/Architecture View Terms.md
+    - communications view: terms/communications view.md
+    - communications viewpoint: terms/communications viewpoint.md
+    - enterprise view: terms/enterprise view.md
+    - enterprise viewpoint: terms/enterprise viewpoint.md
+    - functional view: terms/functional view.md
+    - functional viewpoint: terms/functional viewpoint.md
+    - physical view: terms/physical view.md
+    - physical viewpoint: terms/physical viewpoint.md
+  - Architecture Communication View Terms:
+    - terms/patterns/Architecture Communication View Terms.md
+    - application entity: terms/application entity.md
+    - access layer: terms/access layer.md
+    - ITS-S access layer: terms/ITS-S access layer.md
+    - transnet layer: terms/transnet layer.md
+    - facilities layer: terms/facilities layer.md
+    - management entity: terms/management entity.md
+    - security entity: terms/security entity.md
+  - Architecture Functional View Terms:
+    - terms/patterns/Architecture Functional View Terms.md
+    - data flow: terms/data flow.md
+    - process: terms/process.md
+    - function: terms/function.md
+    - process specification: terms/process specification.md
+  - Architecture Physical View Terms:
+    - terms/patterns/Architecture Physical View Terms.md
+    - physical object: terms/physical object.md
+    - ITS component: terms/ITS component.md
+    - terminator: terms/terminator.md
+    - information flow: terms/information flow.md
+    - information transfer: terms/information transfer.md
+    - functional object: terms/functional object.md
+    - module: terms/module.md
+  - Architecture Type Terms:
+    - terms/patterns/Architecture Type Terms.md
+    - reference architecture: terms/reference architecture.md
+    - planning architecture: terms/planning architecture.md
+    - deployment architecture: terms/deployment architecture.md
+    - ITS-S reference architecture: terms/ITS-S reference architecture.md
+    - ITS reference architecture: terms/ITS reference architecture.md
+    - ITS planning architecture: terms/ITS planning architecture.md
+    - ITS deployment architecture: terms/ITS deployment architecture.md
+  - Data Concept Management Terms:
+    - terms/patterns/Data Concept Management Terms.md
+    - data concept: terms/data concept.md
+    - meta-attribute: terms/meta-attribute.md
+    - data dictionary: terms/data dictionary.md
+    - data concept registry: terms/data concept registry.md
+  - Data Concept Type Terms:
+    - terms/patterns/Data Concept Type Terms.md
+    - data element: terms/data element.md
+    - class: terms/class.md
+    - value domain: terms/value domain.md
+    - data frame: terms/data frame.md
+    - message: terms/message.md
+    - interface dialogue: terms/interface dialogue.md
+  - System Engineering Terms:
+    - terms/patterns/System Engineering Terms.md
+    - use case: terms/use case.md
+    - scenario: terms/scenario.md
+  - Time Terms:
+    - terms/patterns/Time Terms.md
+    - instant: terms/instant.md
+    - duration: terms/duration.md
+  - Information Security Terms:
+    - terms/patterns/Information Security Terms.md
+    - authentication: terms/authentication.md
+    - authenticator: terms/authenticator.md
+    - control: terms/control.md
+    - cryptography: terms/cryptography.md
+    - data privacy: terms/data privacy.md
+    - digital signature: terms/digital signature.md
+    - information security event: terms/information security event.md
+    - information security incident: terms/information security incident.md
+    - non-repudiation: terms/non-repudiation.md
+    - objective: terms/objective.md
+    - resilience: terms/resilience.md
+    - risk: terms/risk.md
+    - threat: terms/threat.md
+    - transparency: terms/transparency.md
+    - trustworthiness: terms/trustworthiness.md
+    - vulnerability: terms/vulnerability.md
+  - Concept Realization Terms:
+    - terms/patterns/Concept Realization Terms.md
+    - design: terms/design.md
+    - implementation: terms/implementation.md
+    - instance: terms/instance.md
+    - realization: terms/realization.md
+    - requirement: terms/requirement.md
+    - requirements specification: terms/requirements specification.md
+- Technology Terms:
+  - terms/groups/Technology Terms.md
+  - Top-level Physical Object Terms:
+    - terms/patterns/Top-level Physical Object Terms.md
+    - central system: terms/central system.md
+    - field system: terms/field system.md
+    - personal system: terms/personal system.md
+    - support system: terms/support system.md
+    - vehicle system: terms/vehicle system.md
+  - Centre Physical Object Terms:
+    - terms/patterns/Centre Physical Object Terms.md
+    - emergency management central system: terms/emergency management central system.md
+    - fleet and freight management central system: terms/fleet and freight management
+        central system.md
+    - maintenance and construction central management system: terms/maintenance and
+        construction central management system.md
+    - payment administration central system: terms/payment administration central
         system.md
-    - maintenance and construction central management system: maintenance and construction
-        central management system.md
-    - payment administration central system: payment administration central system.md
-    - public transport central management system: public transport central management
+    - public transport central management system: terms/public transport central management
         system.md
-    - traffic management central system: traffic management central system.md
-    - traffic regulation central system: traffic regulation central system.md
-    - transport information central system: transport information central system.md
-  - device Component Terms:
-    - actuator: actuator.md
-    - sensor: sensor.md
-  - field Physical Object Terms:
-    - connected: connected.md
-    - connected unit: connected unit.md
-    - connected vehicle: connected vehicle.md
-    - connected vehicle roadside equipment: connected vehicle roadside equipment.md
-    - field support equipment: field support equipment.md
-    - ITS roadside equipment: ITS roadside equipment.md
-    - roadside unit: roadside unit.md
-  - its-s Application Process Terms:
-    - ITS application role: ITS application role.md
-    - ITS-S application: ITS-S application.md
-    - ITS-S application implementation: ITS-S application implementation.md
-    - ITS-S application installation: ITS-S application installation.md
-    - ITS-S application process: ITS-S application process.md
-    - ITS-S application process installation: ITS-S application process installation.md
-  - its Application Terms:
-    - application template: application template.md
-    - interoperability design: interoperability design.md
-    - ITS application: ITS application.md
-    - ITS application specification: ITS application specification.md
-    - ITS deployment: ITS deployment.md
-    - ITS implementation: ITS implementation.md
-  - its Station Terms:
-    - bounded secured managed domain: bounded secured managed domain.md
-    - ITS station: ITS station.md
-    - ITS trust domain: ITS trust domain.md
-    - ITS-S communication unit: ITS-S communication unit.md
-    - ITS-S host: ITS-S host.md
-    - ITS-S node: ITS-S node.md
-    - ITS-S router: ITS-S router.md
-    - ITS-S unit: ITS-S unit.md
-  - personal Physical Object Terms:
-    - nomadic device: nomadic device.md
-    - nomadic vehicle device: nomadic vehicle device.md
-    - personal information device: personal information device.md
-    - public information device: public information device.md
-  - support Physical Object Terms:
-    - cooperative ITS credentials management system: cooperative ITS credentials management
-        system.md
-    - map provision system: map provision system.md
-  - top-level Physical Object Terms:
-    - central system: central system.md
-    - field system: field system.md
-    - personal system: personal system.md
-    - support system: support system.md
-    - vehicle system: vehicle system.md
-  - vehicle Physical Object Terms:
-    - ITS on-board equipment: ITS on-board equipment.md
-    - ITS on-board unit: ITS on-board unit.md
-- infrastructure Terms:
-  - alternate Mode Infrastructure Component Terms:
-    - block-face: block-face.md
-    - cycle lane: cycle lane.md
-    - cycleway: cycleway.md
-    - escalator: escalator.md
-    - footpath: footpath.md
-    - moving walkway: moving walkway.md
-    - pedestrian crossing: pedestrian crossing.md
-    - shared space: shared space.md
-    - sidewalk: sidewalk.md
-  - facility Terms:
-    - bridge: bridge.md
-    - movable bridge: movable bridge.md
-    - transport facility: transport facility.md
-    - transport infrastructure: transport infrastructure.md
-  - infrastructure Operating Mode Terms:
-    - hard shoulder for emergency use: hard shoulder for emergency use.md
-    - hard shoulder running: hard shoulder running.md
-  - junction Terms:
-    - egress lane: egress lane.md
-    - egress link: egress link.md
-    - grade separated manoeuvre: grade separated manoeuvre.md
-    - ingress lane: ingress lane.md
-    - ingress link: ingress link.md
-    - interchange: interchange.md
-    - intersection: intersection.md
-    - intersection manoeuvre: intersection manoeuvre.md
-    - junction: junction.md
-    - junction at grade: junction at grade.md
-  - kerbside Usage Terms:
-    - designated parking space: designated parking space.md
-    - loading area: loading area.md
-    - parking space: parking space.md
-    - parking space for permit holders: parking space for permit holders.md
-    - pick-up/drop-off area: pick-updrop-off area.md
-    - public transport vehicle stop: public transport vehicle stop.md
-  - physical Traffic Separator Terms:
-    - central reservation: central reservation.md
-    - Jersey barrier: Jersey barrier.md
-    - kerb: kerb.md
-    - physical traffic separator: physical traffic separator.md
-  - road Equipment Terms:
-    - road equipment: road equipment.md
-    - traffic control device: traffic control device.md
-  - road Network Terms:
-    - alley: alley.md
-    - lane link: lane link.md
-    - lane segment: lane segment.md
-    - link: link.md
-    - node: node.md
-    - road: road.md
-    - road identifier: road identifier.md
-    - road link: road link.md
-    - road model: road model.md
-    - road network: road network.md
-    - road section: road section.md
-    - road segment: road segment.md
-    - service alley: service alley.md
-    - service road: service road.md
-  - road Reservation Component Terms:
-    - carriageway: carriageway.md
-    - cross-section: cross-section.md
-    - driving space: driving space.md
-    - dual carriageway: dual carriageway.md
-    - hard shoulder: hard shoulder.md
-    - hardstanding: hardstanding.md
-    - lane: lane.md
-    - lay-by: lay-by.md
-    - motorway: motorway.md
-    - multiple carriageway: multiple carriageway.md
-    - reserved lane: reserved lane.md
-    - road reservation: road reservation.md
-    - roadside: roadside.md
-    - roadway: roadway.md
-    - shoulder: shoulder.md
-    - single carriageway: single carriageway.md
-    - soft shoulder: soft shoulder.md
-    - traffic lane: traffic lane.md
-    - travelled way: travelled way.md
-    - usable width: usable width.md
-    - verge: verge.md
-- location Terms:
-  - jurisdictional Terms:
-    - campus: campus.md
-    - governmental area: governmental area.md
-    - ISO named area: ISO named area.md
-    - jurisdiction: jurisdiction.md
-    - jurisdictional area: jurisdictional area.md
-    - jurisdictional boundary: jurisdictional boundary.md
-    - jurisdictional entity: jurisdictional entity.md
-  - location Referencing Terms:
-    - dynamic spatial reference: dynamic spatial reference.md
-    - gazetteer: gazetteer.md
-    - geographic descriptor: geographic descriptor.md
-    - geographic identifier: geographic identifier.md
-    - infrastructure descriptor: infrastructure descriptor.md
-    - link location: link location.md
-    - location referencing: location referencing.md
-    - network location: network location.md
-    - pre-coded spatial reference: pre-coded spatial reference.md
-    - spatial reference: spatial reference.md
-  - location Type Terms:
-    - area destination: area destination.md
-    - area location: area location.md
-    - coordinate tuple: coordinate tuple.md
-    - geographic feature: geographic feature.md
-    - geographic point location: geographic point location.md
-    - linear location: linear location.md
-    - location: location.md
-    - point coordinates: point coordinates.md
-    - point destination: point destination.md
-    - point location: point location.md
-    - spatial location: spatial location.md
-- service Terms:
-  - contractual Model Terms:
-    - contractual model: contractual model.md
-    - corporate customer model: corporate customer model.md
-    - government customer model: government customer model.md
-    - peer-to-peer: peer-to-peer.md
-    - private customer model: private customer model.md
-  - financial Model Terms:
-    - commercial: commercial.md
-    - cooperative: cooperative.md
-    - financial model: financial model.md
-    - fractional ownership: fractional ownership.md
-    - membership-based: membership-based.md
-    - mutual benefit: mutual benefit.md
-    - open-access: open-access.md
-    - private: private.md
-    - public: public.md
-  - generic Service Terms:
-    - service: service.md
-    - service provider: service provider.md
-    - user: user.md
-    - user need: user need.md
-  - its-su Service Terms:
-    - ITS-S service: ITS-S service.md
-    - ITS-SU service: ITS-SU service.md
-    - ITS-SU service provider: ITS-SU service provider.md
-    - ITS-SU user: ITS-SU user.md
-    - ITS-SU user need: ITS-SU user need.md
-  - its Service Terms:
-    - ITS service: ITS service.md
-    - ITS service provider: ITS service provider.md
-    - ITS user: ITS user.md
-    - ITS user need: ITS user need.md
-  - network Model Terms:
-    - free-floating: free-floating.md
-    - network model: network model.md
-    - station-based one-way: station-based one-way.md
-    - station-based roundtrip: station-based roundtrip.md
-  - operational Model Terms:
-    - concurrent: concurrent.md
-    - dynamic route: dynamic route.md
-    - fixed route: fixed route.md
-    - operational model: operational model.md
-    - paired on-demand: paired on-demand.md
-    - sequential: sequential.md
-  - shared Transport Service Terms:
-    - courier network service: courier network service.md
-    - rideshare service: rideshare service.md
-    - ridesourced service: ridesourced service.md
-    - ridesplit service: ridesplit service.md
-    - shuttle service: shuttle service.md
-    - taxi service: taxi service.md
-    - taxi-share service: taxi-share service.md
-  - shared Vehicle Terms:
-    - bikesharing service: bikesharing service.md
-    - carsharing service: carsharing service.md
-  - transport-related Sharing Terms:
-    - public transport: public transport.md
-    - shared transport service: shared transport service.md
-    - shared vehicle service: shared vehicle service.md
-    - transport sharing: transport sharing.md
-    - vehicle sharing: vehicle sharing.md
-  - transport Service Application Terms:
-    - B2 C mobility sharing app: B2C mobility sharing app.md
-    - mobility app: mobility app.md
-    - navigation app: navigation app.md
-    - P2 P mobility sharing app: P2P mobility sharing app.md
-    - public transport app: public transport app.md
-    - real-time traveller information app: real-time traveller information app.md
-    - ridesourcing app: ridesourcing app.md
-    - taxi hailing app: taxi hailing app.md
-    - trip aggregator app: trip aggregator app.md
-  - transport Service Terms:
-    - transport provider: transport provider.md
-    - transport service: transport service.md
-    - transport user: transport user.md
-    - transport user need: transport user need.md
-- user Terms:
-  - traveller Terms:
-    - pedestrian: pedestrian.md
-    - protected road user: protected road user.md
-    - road user: road user.md
-    - traveller: traveller.md
-    - vulnerable road user: vulnerable road user.md
-  - vehicle Occupant Terms:
-    - driver: driver.md
-    - in-vehicle driver: in-vehicle driver.md
-    - passenger: passenger.md
-    - remote driver: remote driver.md
-    - vehicle occupant: vehicle occupant.md
-- vehicle Terms:
-  - vehicle Attribute Terms:
-    - anonymized vehicle reference: anonymized vehicle reference.md
-    - design speed: design speed.md
-    - gross vehicle mass: gross vehicle mass.md
-    - gross vehicle mass rating: gross vehicle mass rating.md
-    - speed: speed.md
-    - vehicle equipment: vehicle equipment.md
-    - vehicle fuel type: vehicle fuel type.md
-    - vehicle identifier: vehicle identifier.md
-    - vehicle load type: vehicle load type.md
-    - vehicle registration plate identifier: vehicle registration plate identifier.md
-  - vehicle Automation Terms:
-    - ADS: ADS.md
-    - ADS-dedicated vehicle: ADS-dedicated vehicle.md
-    - ADS-equipped vehicle: ADS-equipped vehicle.md
-    - conventional vehicle: conventional vehicle.md
-    - DDT performance-relevant system failure: DDT performance-relevant system failure.md
-    - driver support system: driver support system.md
-    - driving automation system: driving automation system.md
-    - dual-mode vehicle: dual-mode vehicle.md
-    - dynamic driving task: dynamic driving task.md
-    - fallback: fallback.md
-    - fallback-ready user: fallback-ready user.md
-    - level 1 driving automation: level 1 driving automation.md
-    - level 2 driving automation: level 2 driving automation.md
-    - level 3 ADS: level 3 ADS.md
-    - level 4 ADS: level 4 ADS.md
-    - level 5 ADS: level 5 ADS.md
-    - operational design domain: operational design domain.md
-  - vehicle Component Terms:
-    - built-in vehicle input device: built-in vehicle input device.md
-    - motor: motor.md
-    - nomadic vehicle input device: nomadic vehicle input device.md
-    - remote vehicle input device: remote vehicle input device.md
-    - vehicle: vehicle.md
-    - vehicle input device: vehicle input device.md
-    - wheel: wheel.md
-  - vehicle Connectivity Terms:
-    - disconnected: disconnected.md
-    - off-grid: off-grid.md
-    - unconnected: unconnected.md
-    - unequipped: unequipped.md
-  - vehicle Speed Terms:
-    - high vehicle speed: high vehicle speed.md
-    - high-speed vehicle: high-speed vehicle.md
-    - low vehicle speed: low vehicle speed.md
-    - low-speed vehicle: low-speed vehicle.md
-    - moderate vehicle speed: moderate vehicle speed.md
-    - moderate-speed vehicle: moderate-speed vehicle.md
-    - moderately high-speed vehicle: moderately high-speed vehicle.md
-    - moderately low-speed vehicle: moderately low-speed vehicle.md
-    - moderately-high vehicle speed: moderately-high vehicle speed.md
-    - moderately-low vehicle speed: moderately-low vehicle speed.md
-    - ultra-low vehicle speed: ultra-low vehicle speed.md
-    - ultra-low-speed vehicle: ultra-low-speed vehicle.md
-  - vehicle Types Environment Terms:
-    - motor vehicle: motor vehicle.md
-    - motorized vehicle: motorized vehicle.md
-    - non-road cycle: non-road cycle.md
-    - non-road vehicle: non-road vehicle.md
-    - road cycle: road cycle.md
-    - road vehicle: road vehicle.md
-- financial Terms:
-  - payment Terms:
-    - payment means: payment means.md
-    - payment mode: payment mode.md
+    - traffic management central system: terms/traffic management central system.md
+    - traffic regulation central system: terms/traffic regulation central system.md
+    - transport information central system: terms/transport information central system.md
+  - Field Physical Object Terms:
+    - terms/patterns/Field Physical Object Terms.md
+    - field support equipment: terms/field support equipment.md
+    - ITS roadside equipment: terms/ITS roadside equipment.md
+    - connected vehicle roadside equipment: terms/connected vehicle roadside equipment.md
+    - roadside unit: terms/roadside unit.md
+    - connected unit: terms/connected unit.md
+    - connected: terms/connected.md
+    - connected vehicle: terms/connected vehicle.md
+  - Personal Physical Object Terms:
+    - terms/patterns/Personal Physical Object Terms.md
+    - nomadic vehicle device: terms/nomadic vehicle device.md
+    - personal information device: terms/personal information device.md
+    - nomadic device: terms/nomadic device.md
+    - public information device: terms/public information device.md
+  - Support Physical Object Terms:
+    - terms/patterns/Support Physical Object Terms.md
+    - cooperative ITS credentials management system: terms/cooperative ITS credentials
+        management system.md
+    - map provision system: terms/map provision system.md
+  - Vehicle Physical Object Terms:
+    - terms/patterns/Vehicle Physical Object Terms.md
+    - ITS on-board equipment: terms/ITS on-board equipment.md
+    - ITS on-board unit: terms/ITS on-board unit.md
+  - Its Station Terms:
+    - terms/patterns/Its Station Terms.md
+    - bounded secured managed domain: terms/bounded secured managed domain.md
+    - ITS trust domain: terms/ITS trust domain.md
+    - ITS station: terms/ITS station.md
+    - ITS-S unit: terms/ITS-S unit.md
+    - ITS-S communication unit: terms/ITS-S communication unit.md
+    - ITS-S host: terms/ITS-S host.md
+    - ITS-S router: terms/ITS-S router.md
+    - ITS-S node: terms/ITS-S node.md
+  - Its Application Terms:
+    - terms/patterns/Its Application Terms.md
+    - ITS application: terms/ITS application.md
+    - interoperability design: terms/interoperability design.md
+    - ITS application specification: terms/ITS application specification.md
+    - application template: terms/application template.md
+    - ITS implementation: terms/ITS implementation.md
+    - ITS deployment: terms/ITS deployment.md
+  - Its-s Application Process Terms:
+    - terms/patterns/Its-s Application Process Terms.md
+    - ITS application role: terms/ITS application role.md
+    - ITS-S application process: terms/ITS-S application process.md
+    - ITS-S application: terms/ITS-S application.md
+    - ITS-S application implementation: terms/ITS-S application implementation.md
+    - ITS-S application process installation: terms/ITS-S application process installation.md
+    - ITS-S application installation: terms/ITS-S application installation.md
+  - Device Component Terms:
+    - terms/patterns/Device Component Terms.md
+    - actuator: terms/actuator.md
+    - sensor: terms/sensor.md
+- Infrastructure Terms:
+  - terms/groups/Infrastructure Terms.md
+  - Road Reservation Component Terms:
+    - terms/patterns/Road Reservation Component Terms.md
+    - cross-section: terms/cross-section.md
+    - road reservation: terms/road reservation.md
+    - roadway: terms/roadway.md
+    - driving space: terms/driving space.md
+    - carriageway: terms/carriageway.md
+    - travelled way: terms/travelled way.md
+    - single carriageway: terms/single carriageway.md
+    - dual carriageway: terms/dual carriageway.md
+    - multiple carriageway: terms/multiple carriageway.md
+    - roadside: terms/roadside.md
+    - verge: terms/verge.md
+    - lane: terms/lane.md
+    - traffic lane: terms/traffic lane.md
+    - reserved lane: terms/reserved lane.md
+    - usable width: terms/usable width.md
+    - lay-by: terms/lay-by.md
+    - hardstanding: terms/hardstanding.md
+    - shoulder: terms/shoulder.md
+    - hard shoulder: terms/hard shoulder.md
+    - soft shoulder: terms/soft shoulder.md
+    - motorway: terms/motorway.md
+  - Physical Traffic Separator Terms:
+    - terms/patterns/Physical Traffic Separator Terms.md
+    - physical traffic separator: terms/physical traffic separator.md
+    - central reservation: terms/central reservation.md
+    - Jersey barrier: terms/Jersey barrier.md
+    - kerb: terms/kerb.md
+  - Alternate Mode Infrastructure Component Terms:
+    - terms/patterns/Alternate Mode Infrastructure Component Terms.md
+    - cycle lane: terms/cycle lane.md
+    - cycleway: terms/cycleway.md
+    - footpath: terms/footpath.md
+    - sidewalk: terms/sidewalk.md
+    - escalator: terms/escalator.md
+    - moving walkway: terms/moving walkway.md
+    - pedestrian crossing: terms/pedestrian crossing.md
+    - shared space: terms/shared space.md
+    - block-face: terms/block-face.md
+  - Infrastructure Operating Mode Terms:
+    - terms/patterns/Infrastructure Operating Mode Terms.md
+    - hard shoulder for emergency use: terms/hard shoulder for emergency use.md
+    - hard shoulder running: terms/hard shoulder running.md
+  - Road Network Terms:
+    - terms/patterns/Road Network Terms.md
+    - road: terms/road.md
+    - road network: terms/road network.md
+    - road model: terms/road model.md
+    - node: terms/node.md
+    - link: terms/link.md
+    - road link: terms/road link.md
+    - road section: terms/road section.md
+    - road segment: terms/road segment.md
+    - lane link: terms/lane link.md
+    - lane segment: terms/lane segment.md
+    - alley: terms/alley.md
+    - road identifier: terms/road identifier.md
+    - service road: terms/service road.md
+    - service alley: terms/service alley.md
+  - Junction Terms:
+    - terms/patterns/Junction Terms.md
+    - intersection: terms/intersection.md
+    - junction: terms/junction.md
+    - ingress lane: terms/ingress lane.md
+    - ingress link: terms/ingress link.md
+    - egress lane: terms/egress lane.md
+    - egress link: terms/egress link.md
+    - intersection manoeuvre: terms/intersection manoeuvre.md
+    - junction at grade: terms/junction at grade.md
+    - interchange: terms/interchange.md
+    - grade separated manoeuvre: terms/grade separated manoeuvre.md
+  - Facility Terms:
+    - terms/patterns/Facility Terms.md
+    - transport facility: terms/transport facility.md
+    - transport infrastructure: terms/transport infrastructure.md
+    - bridge: terms/bridge.md
+    - movable bridge: terms/movable bridge.md
+  - Kerbside Usage Terms:
+    - terms/patterns/Kerbside Usage Terms.md
+    - designated parking space: terms/designated parking space.md
+    - loading area: terms/loading area.md
+    - parking space: terms/parking space.md
+    - parking space for permit holders: terms/parking space for permit holders.md
+    - pick-up/drop-off area: terms/pick-updrop-off area.md
+    - public transport vehicle stop: terms/public transport vehicle stop.md
+  - Road Equipment Terms:
+    - terms/patterns/Road Equipment Terms.md
+    - road equipment: terms/road equipment.md
+    - traffic control device: terms/traffic control device.md
+- Location Terms:
+  - terms/groups/Location Terms.md
+  - Location Type Terms:
+    - terms/patterns/Location Type Terms.md
+    - location: terms/location.md
+    - spatial location: terms/spatial location.md
+    - point location: terms/point location.md
+    - geographic point location: terms/geographic point location.md
+    - linear location: terms/linear location.md
+    - area location: terms/area location.md
+    - geographic feature: terms/geographic feature.md
+    - point destination: terms/point destination.md
+    - area destination: terms/area destination.md
+    - coordinate tuple: terms/coordinate tuple.md
+    - point coordinates: terms/point coordinates.md
+  - Location Referencing Terms:
+    - terms/patterns/Location Referencing Terms.md
+    - location referencing: terms/location referencing.md
+    - spatial reference: terms/spatial reference.md
+    - dynamic spatial reference: terms/dynamic spatial reference.md
+    - pre-coded spatial reference: terms/pre-coded spatial reference.md
+    - link location: terms/link location.md
+    - geographic identifier: terms/geographic identifier.md
+    - gazetteer: terms/gazetteer.md
+    - network location: terms/network location.md
+    - geographic descriptor: terms/geographic descriptor.md
+    - infrastructure descriptor: terms/infrastructure descriptor.md
+  - Jurisdictional Terms:
+    - terms/patterns/Jurisdictional Terms.md
+    - campus: terms/campus.md
+    - governmental area: terms/governmental area.md
+    - ISO named area: terms/ISO named area.md
+    - jurisdiction: terms/jurisdiction.md
+    - jurisdictional area: terms/jurisdictional area.md
+    - jurisdictional boundary: terms/jurisdictional boundary.md
+    - jurisdictional entity: terms/jurisdictional entity.md
+- Service Terms:
+  - terms/groups/Service Terms.md
+  - Generic Service Terms:
+    - terms/patterns/Generic Service Terms.md
+    - service: terms/service.md
+    - service provider: terms/service provider.md
+    - user: terms/user.md
+    - user need: terms/user need.md
+  - Transport Service Terms:
+    - terms/patterns/Transport Service Terms.md
+    - transport service: terms/transport service.md
+    - transport provider: terms/transport provider.md
+    - transport user: terms/transport user.md
+    - transport user need: terms/transport user need.md
+  - Its Service Terms:
+    - terms/patterns/Its Service Terms.md
+    - ITS service: terms/ITS service.md
+    - ITS service provider: terms/ITS service provider.md
+    - ITS user: terms/ITS user.md
+    - ITS user need: terms/ITS user need.md
+  - Its-su Service Terms:
+    - terms/patterns/Its-su Service Terms.md
+    - ITS-SU service: terms/ITS-SU service.md
+    - ITS-SU service provider: terms/ITS-SU service provider.md
+    - ITS-SU user: terms/ITS-SU user.md
+    - ITS-SU user need: terms/ITS-SU user need.md
+    - ITS-S service: terms/ITS-S service.md
+  - Transport Service Application Terms:
+    - terms/patterns/Transport Service Application Terms.md
+    - mobility app: terms/mobility app.md
+    - B2 C mobility sharing app: terms/B2C mobility sharing app.md
+    - navigation app: terms/navigation app.md
+    - P2 P mobility sharing app: terms/P2P mobility sharing app.md
+    - ridesourcing app: terms/ridesourcing app.md
+    - public transport app: terms/public transport app.md
+    - real-time traveller information app: terms/real-time traveller information app.md
+    - taxi hailing app: terms/taxi hailing app.md
+    - trip aggregator app: terms/trip aggregator app.md
+  - Transport-related Sharing Terms:
+    - terms/patterns/Transport-related Sharing Terms.md
+    - public transport: terms/public transport.md
+    - shared transport service: terms/shared transport service.md
+    - shared vehicle service: terms/shared vehicle service.md
+    - transport sharing: terms/transport sharing.md
+    - vehicle sharing: terms/vehicle sharing.md
+  - Contractual Model Terms:
+    - terms/patterns/Contractual Model Terms.md
+    - contractual model: terms/contractual model.md
+    - corporate customer model: terms/corporate customer model.md
+    - private customer model: terms/private customer model.md
+    - government customer model: terms/government customer model.md
+    - peer-to-peer: terms/peer-to-peer.md
+  - Financial Model Terms:
+    - terms/patterns/Financial Model Terms.md
+    - financial model: terms/financial model.md
+    - commercial: terms/commercial.md
+    - public: terms/public.md
+    - cooperative: terms/cooperative.md
+    - mutual benefit: terms/mutual benefit.md
+    - fractional ownership: terms/fractional ownership.md
+    - private: terms/private.md
+    - membership-based: terms/membership-based.md
+    - open-access: terms/open-access.md
+  - Operational Model Terms:
+    - terms/patterns/Operational Model Terms.md
+    - operational model: terms/operational model.md
+    - sequential: terms/sequential.md
+    - concurrent: terms/concurrent.md
+    - fixed route: terms/fixed route.md
+    - dynamic route: terms/dynamic route.md
+    - paired on-demand: terms/paired on-demand.md
+  - Network Model Terms:
+    - terms/patterns/Network Model Terms.md
+    - network model: terms/network model.md
+    - station-based roundtrip: terms/station-based roundtrip.md
+    - station-based one-way: terms/station-based one-way.md
+    - free-floating: terms/free-floating.md
+  - Shared Transport Service Terms:
+    - terms/patterns/Shared Transport Service Terms.md
+    - shuttle service: terms/shuttle service.md
+    - taxi service: terms/taxi service.md
+    - taxi-share service: terms/taxi-share service.md
+    - rideshare service: terms/rideshare service.md
+    - ridesourced service: terms/ridesourced service.md
+    - ridesplit service: terms/ridesplit service.md
+    - courier network service: terms/courier network service.md
+  - Shared Vehicle Terms:
+    - terms/patterns/Shared Vehicle Terms.md
+    - bikesharing service: terms/bikesharing service.md
+    - carsharing service: terms/carsharing service.md
+- User Terms:
+  - terms/groups/User Terms.md
+  - Traveller Terms:
+    - terms/patterns/Traveller Terms.md
+    - traveller: terms/traveller.md
+    - road user: terms/road user.md
+    - pedestrian: terms/pedestrian.md
+    - vulnerable road user: terms/vulnerable road user.md
+    - protected road user: terms/protected road user.md
+  - Vehicle Occupant Terms:
+    - terms/patterns/Vehicle Occupant Terms.md
+    - passenger: terms/passenger.md
+    - vehicle occupant: terms/vehicle occupant.md
+    - driver: terms/driver.md
+    - in-vehicle driver: terms/in-vehicle driver.md
+    - remote driver: terms/remote driver.md
+- Vehicle Terms:
+  - terms/groups/Vehicle Terms.md
+  - Vehicle Component Terms:
+    - terms/patterns/Vehicle Component Terms.md
+    - vehicle: terms/vehicle.md
+    - motor: terms/motor.md
+    - wheel: terms/wheel.md
+    - vehicle input device: terms/vehicle input device.md
+    - built-in vehicle input device: terms/built-in vehicle input device.md
+    - nomadic vehicle input device: terms/nomadic vehicle input device.md
+    - remote vehicle input device: terms/remote vehicle input device.md
+  - Vehicle Attribute Terms:
+    - terms/patterns/Vehicle Attribute Terms.md
+    - speed: terms/speed.md
+    - design speed: terms/design speed.md
+    - anonymized vehicle reference: terms/anonymized vehicle reference.md
+    - vehicle equipment: terms/vehicle equipment.md
+    - vehicle fuel type: terms/vehicle fuel type.md
+    - vehicle identifier: terms/vehicle identifier.md
+    - vehicle load type: terms/vehicle load type.md
+    - vehicle registration plate identifier: terms/vehicle registration plate identifier.md
+    - gross vehicle mass: terms/gross vehicle mass.md
+    - gross vehicle mass rating: terms/gross vehicle mass rating.md
+  - Vehicle Automation Terms:
+    - terms/patterns/Vehicle Automation Terms.md
+    - dynamic driving task: terms/dynamic driving task.md
+    - operational design domain: terms/operational design domain.md
+    - fallback: terms/fallback.md
+    - fallback-ready user: terms/fallback-ready user.md
+    - DDT performance-relevant system failure: terms/DDT performance-relevant system
+        failure.md
+    - driving automation system: terms/driving automation system.md
+    - driver support system: terms/driver support system.md
+    - level 1 driving automation: terms/level 1 driving automation.md
+    - level 2 driving automation: terms/level 2 driving automation.md
+    - ADS: terms/ADS.md
+    - level 3 ADS: terms/level 3 ADS.md
+    - level 4 ADS: terms/level 4 ADS.md
+    - level 5 ADS: terms/level 5 ADS.md
+    - conventional vehicle: terms/conventional vehicle.md
+    - ADS-equipped vehicle: terms/ADS-equipped vehicle.md
+    - dual-mode vehicle: terms/dual-mode vehicle.md
+    - ADS-dedicated vehicle: terms/ADS-dedicated vehicle.md
+  - Vehicle Connectivity Terms:
+    - terms/patterns/Vehicle Connectivity Terms.md
+    - off-grid: terms/off-grid.md
+    - unconnected: terms/unconnected.md
+    - disconnected: terms/disconnected.md
+    - unequipped: terms/unequipped.md
+  - Vehicle Speed Terms:
+    - terms/patterns/Vehicle Speed Terms.md
+    - ultra-low-speed vehicle: terms/ultra-low-speed vehicle.md
+    - low-speed vehicle: terms/low-speed vehicle.md
+    - moderately low-speed vehicle: terms/moderately low-speed vehicle.md
+    - moderate-speed vehicle: terms/moderate-speed vehicle.md
+    - moderately high-speed vehicle: terms/moderately high-speed vehicle.md
+    - high-speed vehicle: terms/high-speed vehicle.md
+    - ultra-low vehicle speed: terms/ultra-low vehicle speed.md
+    - low vehicle speed: terms/low vehicle speed.md
+    - moderately-low vehicle speed: terms/moderately-low vehicle speed.md
+    - moderate vehicle speed: terms/moderate vehicle speed.md
+    - moderately-high vehicle speed: terms/moderately-high vehicle speed.md
+    - high vehicle speed: terms/high vehicle speed.md
+  - Vehicle Types Environment Terms:
+    - terms/patterns/Vehicle Types Environment Terms.md
+    - road vehicle: terms/road vehicle.md
+    - motorized vehicle: terms/motorized vehicle.md
+    - motor vehicle: terms/motor vehicle.md
+    - non-road vehicle: terms/non-road vehicle.md
+    - road cycle: terms/road cycle.md
+    - non-road cycle: terms/non-road cycle.md
+- Financial Terms:
+  - terms/groups/Financial Terms.md
+  - Payment Terms:
+    - terms/patterns/Payment Terms.md
+    - payment means: terms/payment means.md
+    - payment mode: terms/payment mode.md
 site_url: https://isotc204.org/iso14812/
 copyright: <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
   <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank"

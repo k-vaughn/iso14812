@@ -1,0 +1,18 @@
+[Home](../../index.md) · [Core Terms](../groups/Core Terms.md) · Architecture Enterprise View Terms
+
+# Architecture Enterprise View Terms
+
+Clause: 3.1
+
+## Terms
+
+- 3.1.6.1 — [enterprise object](../enterprise object.md)
+- 3.1.6.2 — [resource](../resource.md)
+- 3.1.6.3 — [document](../document.md)
+- 3.1.6.4 — [interaction](../interaction.md)
+- 3.1.6.5 — [formal coordination](../formal coordination.md)
+- 3.1.6.6 — [informal coordination](../informal coordination.md)
+- 3.1.6.8 — [relationship](../relationship.md)
+- 3.1.6.9 — [include](../include.md)
+- 3.1.6.10 — [extend](../extend.md)
+- 3.1.12.3 — [role](../role.md)

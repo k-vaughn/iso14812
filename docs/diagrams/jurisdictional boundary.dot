@@ -5,15 +5,14 @@ digraph {
 	edge [fontname=Arial fontsize=11]
 	{
 		rank=max
-		"jurisdictional boundary" [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER" PORT="e">jurisdictional boundary</TD></TR></TABLE>> URL="../classes/itsVocabulary__jurisdictional boundary.md" margin=0]
+		"jurisdictional boundary" [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER" PORT="e">jurisdictional boundary</TD></TR></TABLE>> margin=0]
 	}
 	subgraph cluster_associated {
 		label="" style=invis
 		Invis [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD></TD></TR></TABLE>> margin=0 style=invis]
-		jurisdictionalArea [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">jurisdictional area</TD></TR></TABLE>> URL="../jurisdictional area/" margin=0 target=_top]
+		jurisdictionalArea [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">jurisdictional area</TD></TR></TABLE>> URL="../terms/jurisdictional area/" margin=0 target=_top]
 	}
 	"jurisdictional boundary" -> Invis [style=invis]
 	Invis -> jurisdictionalArea [style=invis]
-	"jurisdictional boundary" -> jurisdictionalArea [label=" limitOf 
- «some»  " arrowhead=normal style=solid]
+	"jurisdictional boundary" -> jurisdictionalArea [label=" limit of " arrowhead=normal style=solid]
 }

@@ -1,0 +1,22 @@
+[Home](../index.md) · [Service Terms](groups/Service Terms.md) · [Financial Model Terms](patterns/Financial Model Terms.md) · private
+
+# private
+
+<transport service> [financial model](financial model.md) where [services](service.md) are provided to members of the owning organization without usage fees
+
+<object type="image/svg+xml" data="../../diagrams/private.dot.svg">
+    <img alt="private Diagram" src="../../diagrams/private.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.5.8.7
+
+EXAMPLE: Fleet vehicles of an employer.
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for private
+
+| Property | Constraint |
+| --- | --- |
+| subClassOf | financialModel |
+

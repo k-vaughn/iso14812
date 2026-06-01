@@ -1,0 +1,24 @@
+[Home](../index.md) · [Vehicle Terms](groups/Vehicle Terms.md) · [Vehicle Speed Terms](patterns/Vehicle Speed Terms.md) · high-speed vehicle
+
+# high-speed vehicle
+
+[vehicle](vehicle.md) with a [design speed](design speed.md) in the range of [high vehicle speeds](high vehicle speed.md)
+
+<object type="image/svg+xml" data="../../diagrams/high-speed vehicle.dot.svg">
+    <img alt="high-speed vehicle Diagram" src="../../diagrams/high-speed vehicle.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.7.5.6
+
+Example 1: High-speed train
+
+Example 2: Racing car.
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for high-speed vehicle
+
+| Property | Constraint |
+| --- | --- |
+| subClassOf | vehicle |
+

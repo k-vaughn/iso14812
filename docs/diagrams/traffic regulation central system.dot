@@ -5,9 +5,9 @@ digraph {
 	edge [fontname=Arial fontsize=11]
 	{
 		rank=max
-		"traffic regulation central system" [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER" PORT="e">traffic regulation central system</TD></TR></TABLE>> URL="../classes/itsVocabulary__traffic regulation central system.md" margin=0]
+		"traffic regulation central system" [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER" PORT="e">traffic regulation central system</TD></TR></TABLE>> margin=0]
 	}
-	centralSystem [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">central system</TD></TR></TABLE>> URL="../central system/" margin=0 target=_top]
+	centralSystem [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">central system</TD></TR></TABLE>> URL="../terms/central system/" margin=0 target=_top]
 	subgraph cluster_associated {
 		label="" style=invis
 		Invis [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD></TD></TR></TABLE>> margin=0 style=invis]

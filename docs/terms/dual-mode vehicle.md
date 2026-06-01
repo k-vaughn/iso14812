@@ -1,0 +1,22 @@
+[Home](../index.md) · [Vehicle Terms](groups/Vehicle Terms.md) · [Vehicle Automation Terms](patterns/Vehicle Automation Terms.md) · dual-mode vehicle
+
+# dual-mode vehicle
+
+<driving automation> [ADS-equipped vehicle](ADS-equipped vehicle.md) designed for both driverless operation and operation by a conventional [driver](driver.md) for complete trips
+
+<object type="image/svg+xml" data="../../diagrams/dual-mode vehicle.dot.svg">
+    <img alt="dual-mode vehicle Diagram" src="../../diagrams/dual-mode vehicle.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.7.3.16
+
+Alternative preferred term: driving automation dual-mode vehicle
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for dual-mode vehicle
+
+| Property | Constraint |
+| --- | --- |
+| subClassOf | ads-equippedVehicle |
+

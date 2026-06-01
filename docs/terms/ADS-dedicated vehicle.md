@@ -1,0 +1,20 @@
+[Home](../index.md) · [Vehicle Terms](groups/Vehicle Terms.md) · [Vehicle Automation Terms](patterns/Vehicle Automation Terms.md) · ADS-dedicated vehicle
+
+# ADS-dedicated vehicle
+
+[ADS-equipped vehicle](ADS-equipped vehicle.md) designed for only driverless operation for complete trips
+
+<object type="image/svg+xml" data="../../diagrams/ADS-dedicated vehicle.dot.svg">
+    <img alt="ADS-dedicated vehicle Diagram" src="../../diagrams/ADS-dedicated vehicle.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.7.3.17
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for ADS-dedicated vehicle
+
+| Property | Constraint |
+| --- | --- |
+| subClassOf | ads-equippedVehicle |
+

@@ -3,6 +3,7 @@ import os
 import re
 import logging
 import traceback
+from pathlib import Path
 from typing import Optional, Iterable, Tuple, List
 from rdflib import Graph, RDF, RDFS, OWL, URIRef, Literal, BNode
 from rdflib.namespace import DC, DCTERMS, SKOS, RDFS
@@ -104,7 +105,9 @@ def get_label(g: Graph, c: URIRef) -> str:
     for p in [SKOS.prefLabel, RDFS.label]:
         for _, _, lbl in g.triples((c, p, None)):
             if isinstance(lbl, Literal):
-                return str(lbl)
+                text = str(lbl).strip()
+                if text:
+                    return text
     fragment_start = max(c.rfind('#'), c.rfind('/')) + 1
     return c[fragment_start:]
 
@@ -250,7 +253,7 @@ def class_restrictions(g: Graph, cls: URIRef, ns: str, prefix_map: dict) -> list
 def hyperlink_class(name: str, all_classes: set, ns: str):
     """Create a hyperlink only for classes in the local namespace."""
     if ':' not in name and name in all_classes:
-        return f"[{name}]({name}.md)"
+        return f"[{name}]({term_page_link(name)})"
     return name
 
 def fmt_title(name: str, all_classes: set, ns: str, abstract_map: dict) -> str:
@@ -271,6 +274,137 @@ def get_filename(input_string: str) -> str:
     if input_string is None:
         return None
     return input_string.replace("/", "")
+
+TERMS_SUBDIR = "terms"
+GROUPS_SUBDIR = "groups"
+PATTERNS_SUBDIR = "patterns"
+CONCEPT_REGISTRY_FILENAME = "concept_registry.md"
+
+
+def collection_list_item(clause_display: str, label: str, link: str) -> str:
+    """Markdown list item with optional leading clause number."""
+    if clause_display:
+        return f"- {clause_display} — [{label}]({link})\n"
+    return f"- [{label}]({link})\n"
+
+
+def format_breadcrumb(crumbs: list[tuple[str, str | None]]) -> str:
+    """Render a breadcrumb trail; None link means current page (plain text)."""
+    parts = []
+    for label, link in crumbs:
+        if link:
+            parts.append(f"[{label}]({link})")
+        else:
+            parts.append(label)
+    return " · ".join(parts) + "\n\n"
+
+
+def group_page_filename(title: str) -> str:
+    return f"{get_filename(title)}.md"
+
+
+def pattern_page_filename(title: str) -> str:
+    return group_page_filename(title)
+
+
+def group_nav_path(title: str) -> str:
+    return f"{TERMS_SUBDIR}/{GROUPS_SUBDIR}/{group_page_filename(title)}"
+
+
+def pattern_nav_path(title: str) -> str:
+    return f"{TERMS_SUBDIR}/{PATTERNS_SUBDIR}/{pattern_page_filename(title)}"
+
+
+def group_page_link_from_terms(title: str) -> str:
+    return f"{GROUPS_SUBDIR}/{group_page_filename(title)}"
+
+
+def pattern_page_link_from_terms(title: str) -> str:
+    return f"{PATTERNS_SUBDIR}/{pattern_page_filename(title)}"
+
+
+def group_page_link_from_patterns(title: str) -> str:
+    return f"../{GROUPS_SUBDIR}/{group_page_filename(title)}"
+
+
+def term_breadcrumb(
+    cls_name: str,
+    collection_map: dict[str, dict],
+) -> str:
+    """Breadcrumb for a term page under docs/terms/."""
+    crumbs: list[tuple[str, str | None]] = [("Home", "../index.md")]
+    info = collection_map.get(cls_name)
+    if info:
+        if info.get("group_title"):
+            crumbs.append(
+                (info["group_title"], group_page_link_from_terms(info["group_title"]))
+            )
+        if info.get("pattern_title"):
+            crumbs.append(
+                (info["pattern_title"], pattern_page_link_from_terms(info["pattern_title"]))
+            )
+    crumbs.append((cls_name, None))
+    return format_breadcrumb(crumbs)
+
+
+def group_breadcrumb(group_title: str) -> str:
+    return format_breadcrumb([("Home", "../../index.md"), (group_title, None)])
+
+
+def pattern_breadcrumb(
+    pattern_title: str,
+    group_title: str | None,
+) -> str:
+    crumbs: list[tuple[str, str | None]] = [("Home", "../../index.md")]
+    if group_title:
+        crumbs.append((group_title, group_page_link_from_patterns(group_title)))
+    crumbs.append((pattern_title, None))
+    return format_breadcrumb(crumbs)
+
+
+def registry_breadcrumb() -> str:
+    return format_breadcrumb([("Home", "../index.md"), ("Alphabetical Listing", None)])
+
+
+def index_breadcrumb() -> str:
+    return format_breadcrumb([("Home", None)])
+
+def concept_registry_path(docs_dir: str) -> str:
+    return os.path.join(docs_dir, TERMS_SUBDIR, CONCEPT_REGISTRY_FILENAME)
+
+def concept_registry_nav_path() -> str:
+    return f"{TERMS_SUBDIR}/{CONCEPT_REGISTRY_FILENAME}"
+
+def md_table_delimiter(column_count: int) -> str:
+    """Delimiter row for GFM tables (MD060 compact style)."""
+    return "|" + "|".join(" --- " for _ in range(column_count)) + "|\n"
+
+def term_page_filename(cls_name: str) -> str:
+    return f"{get_filename(cls_name)}.md"
+
+def term_nav_path(cls_name: str) -> str:
+    """MkDocs nav path relative to docs/."""
+    return f"{TERMS_SUBDIR}/{term_page_filename(cls_name)}"
+
+def term_page_link(cls_name: str) -> str:
+    """Relative link between term pages in terms/."""
+    return term_page_filename(cls_name)
+
+def term_page_link_from_docs(cls_name: str) -> str:
+    """Relative link from docs root (e.g. concept_registry.md)."""
+    return term_nav_path(cls_name)
+
+def diagram_path_from_terms(cls_name: str, suffix: str) -> str:
+    """Relative path to a diagram asset from a term page under docs/terms/."""
+    return f"../../diagrams/{get_filename(cls_name)}.{suffix}"
+
+def term_page_dir_path(cls_name: str) -> str:
+    """MkDocs directory URL path for a term page relative to docs/."""
+    return f"{TERMS_SUBDIR}/{get_filename(cls_name)}/"
+
+def term_page_link_from_diagrams(cls_name: str) -> str:
+    """Relative link from diagrams/ directory (MkDocs directory URLs, trailing slash)."""
+    return f"../{term_page_dir_path(cls_name)}"
 
 def get_id(qname):
     if not qname:
@@ -303,6 +437,7 @@ def get_property_info(g: Graph, prop: URIRef, ns: str, prefix_map: dict) -> tupl
         base_prop = inverse_of
         is_inverse = True
         prop_name = f"inverse {get_qname(g, base_prop, ns, prefix_map)}"
+        prop_label = get_label(g, base_prop)
     else:
         base_prop = prop
         is_inverse = False
@@ -347,33 +482,84 @@ def get_ontology_for_uri(uri_str: str, ns_to_ontology: dict) -> str:
             return ont_name
     return None
 
-def update_concept_registry(script_dir, registry):
+def update_concept_registry(script_dir, registry, term_collection_map: dict | None = None):
     root_dir = os.getcwd()
     docs_dir = os.path.join(root_dir, "docs")
     if not os.path.isdir(docs_dir):
         log.warning(f"docs directory does not exist: {docs_dir}")
-    registry_path = os.path.join(docs_dir, "concept_registry.md")
-    with open(registry_path, 'w', encoding='utf-8') as f:
+    terms_dir = os.path.join(docs_dir, TERMS_SUBDIR)
+    os.makedirs(terms_dir, exist_ok=True)
+    registry_path = concept_registry_path(docs_dir)
+    legacy_registry_path = os.path.join(docs_dir, CONCEPT_REGISTRY_FILENAME)
+    if os.path.isfile(legacy_registry_path) and legacy_registry_path != registry_path:
+        os.remove(legacy_registry_path)
+    with open(registry_path, "w", encoding="utf-8") as f:
+        f.write(registry_breadcrumb())
         f.write("# Concept Registry\n\n")
         f.write("This page lists all known terms in the ITS Vocabulary.\n\n")
-        f.write("| name | description |\n|----------|------|\n")
-        # Sort by base_uri and then name
-        sorted_items = sorted(registry.items())
-        for uri, info in sorted_items:
-            log.debug(f"Writing concept to registry: {uri}")
-            if not uri.startswith('N') and info['type'] == 'class':
-                f.write(f"| {uri} | {info['description']} |\n")
-    log.info(f"Updated concept_registry.md with {len(registry)} entries")
+        f.write("| name | description |\n")
+        f.write(md_table_delimiter(2))
+        sorted_items = sorted(
+            (info for info in registry.values() if info.get("type") == "class"),
+            key=lambda info: info["name"].lower(),
+        )
+        for info in sorted_items:
+            cls_name = info["name"]
+            if not cls_name or not cls_name.strip() or fauxClass(cls_name):
+                continue
+            f.write(
+                f"| [{cls_name}]({term_page_link(cls_name)}) | {normalize_registry_description(info['description'])} |\n"
+            )
+    log.info("Updated %s with %d entries", registry_path, len(registry))
+    
+def fauxClass(cls_name: str) -> bool:
+    """True for RDF/OWL placeholder blank-node class names (e.g. n + hexadecimal)."""
+    if not cls_name or not cls_name.strip():
+        return True
+    name = cls_name.strip()
+    if re.fullmatch(r"N[0-9a-f]{32}", name):
+        return True
+    if name[0] in "Nn" and re.fullmatch(r"[0-9a-f]+", name[1:]):
+        return True
+    return False
 
-def fauxClass(cls_name):
-    """
-    Checks if cls_name follows the pattern: 'N' followed by exactly 32 lowercase hexadecimal characters (0-9, a-f).
-    
-    Args:
-        cls_name (str): The string to check.
-    
-    Returns:
-        bool: True if the pattern matches, False otherwise.
-    """
-    pattern = r'^N[0-9a-f]{32}$'
-    return bool(re.fullmatch(pattern, cls_name))
+
+def is_publishable_term(cls: URIRef, g: Graph) -> bool:
+    """True when the class should have a public term page."""
+    if cls is None or cls == OWL.Thing:
+        return False
+    label = get_label(g, cls)
+    if not label or not label.strip() or label == "ITSThing":
+        return False
+    if fauxClass(label):
+        return False
+    local = str(cls).rsplit("/", 1)[-1].split("#")[-1]
+    return not fauxClass(local)
+
+
+def normalize_registry_description(text: str) -> str:
+    """Normalize description text for the concept registry table."""
+    text = normalize_string(text)
+    return re.sub(r"\]\(terms/([^)]+)\)", r"](\1)", text)
+
+
+def remove_placeholder_term_pages(terms_dir: str) -> int:
+    """Delete generated markdown for placeholder classes."""
+    removed = 0
+    terms_path = Path(terms_dir)
+    if not terms_path.is_dir():
+        return removed
+    for path in terms_path.glob("*.md"):
+        if path.name == CONCEPT_REGISTRY_FILENAME:
+            continue
+        if path.parent != terms_path:
+            continue
+        if fauxClass(path.stem):
+            path.unlink()
+            removed += 1
+    return removed
+
+# Function to replace line returns and surrounding whitespace with a space
+def normalize_string(input_str):
+    lines = [line.strip() for line in input_str.splitlines()]  # Strip whitespace per line
+    return ' '.join(lines)  # Join with space, collapsing empty lines

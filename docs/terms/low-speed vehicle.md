@@ -1,0 +1,26 @@
+[Home](../index.md) · [Vehicle Terms](groups/Vehicle Terms.md) · [Vehicle Speed Terms](patterns/Vehicle Speed Terms.md) · low-speed vehicle
+
+# low-speed vehicle
+
+[vehicle](vehicle.md) with a [design speed](design speed.md) in the range of [low vehicle speeds](low vehicle speed.md)
+
+<object type="image/svg+xml" data="../../diagrams/low-speed vehicle.dot.svg">
+    <img alt="low-speed vehicle Diagram" src="../../diagrams/low-speed vehicle.dot.png" /> <!-- Fallback for non-SVG browsers -->
+</object>
+
+Clause: 3.7.5.2
+
+Admitted term: cycle-speed vehicle
+
+EXAMPLE: Mountain bicycle.
+
+Note 1 to entry: The term "cycle-speed vehicle" is allowed but the preferred term follows a logical progression of levels.
+
+History note: Introduced in ISO/TS 14812:2022
+
+## Relationships for low-speed vehicle
+
+| Property | Constraint |
+| --- | --- |
+| subClassOf | vehicle |
+
