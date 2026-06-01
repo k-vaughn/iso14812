@@ -25,3 +25,8 @@ History note: Introduced in ISO/TS 14812:2022
 | desiredResultsOf | some itsUser |
 | subClassOf | userNeed |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ITS+user+need&page-title=ITS+user+need&page-path=terms%2FITS+user+need.md)
+

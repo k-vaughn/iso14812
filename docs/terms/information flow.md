@@ -12,3 +12,8 @@ Clause: 3.1.8.4
 
 History note: Introduced in ISO/TS 14812:2022
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+information+flow&page-title=information+flow&page-path=terms%2Finformation+flow.md)
+

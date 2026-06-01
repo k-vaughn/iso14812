@@ -16,3 +16,8 @@ Note 2 to entry: While the limits of the roadway are defined by the design of th
 
 History note: Introduced in ISO/TS 14812:2022
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+travelled+way&page-title=travelled+way&page-path=terms%2Ftravelled+way.md)
+

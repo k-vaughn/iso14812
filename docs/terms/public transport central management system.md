@@ -18,3 +18,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | subClassOf | centralSystem |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+public+transport+central+management+system&page-title=public+transport+central+management+system&page-path=terms%2Fpublic+transport+central+management+system.md)
+

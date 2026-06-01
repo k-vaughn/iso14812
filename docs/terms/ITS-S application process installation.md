@@ -28,3 +28,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | installationOf | some its-sApplicationProcess |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ITS-S+application+process+installation&page-title=ITS-S+application+process+installation&page-path=terms%2FITS-S+application+process+installation.md)
+

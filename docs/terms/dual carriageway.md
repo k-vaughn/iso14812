@@ -26,3 +26,8 @@ History note: Introduced in ISO/TS 14812:2022
 | has | exactly 1 owl::Thing |
 | subClassOf | roadway |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+dual+carriageway&page-title=dual+carriageway&page-path=terms%2Fdual+carriageway.md)
+

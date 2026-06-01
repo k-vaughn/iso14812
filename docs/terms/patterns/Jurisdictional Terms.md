@@ -13,3 +13,8 @@ Clause: 3.4.3
 - 3.4.3.5 — [jurisdictional area](../jurisdictional area.md)
 - 3.4.3.6 — [jurisdictional boundary](../jurisdictional boundary.md)
 - 3.4.3.7 — [jurisdictional entity](../jurisdictional entity.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Jurisdictional+Terms&page-title=Jurisdictional+Terms&page-path=terms%2Fpatterns%2FJurisdictional+Terms.md)
+

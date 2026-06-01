@@ -27,3 +27,8 @@ History note: Introduced in ISO/TS 14812:2022
 | comprises | some its-sCommunicationUnit |
 | instantiationOf | some itsStation |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ITS-S+unit&page-title=ITS-S+unit&page-path=terms%2FITS-S+unit.md)
+

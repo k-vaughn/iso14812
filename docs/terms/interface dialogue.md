@@ -27,3 +27,8 @@ History note: Introduced in ISO/TS 14812:2022
 | subClassOf | dataConcept |
 | uses | some message |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+interface+dialogue&page-title=interface+dialogue&page-path=terms%2Finterface+dialogue.md)
+

@@ -27,3 +27,8 @@ Clause: 3.3.1
 - 3.3.1.19 — [hard shoulder](../hard shoulder.md)
 - 3.3.1.20 — [soft shoulder](../soft shoulder.md)
 - 3.3.1.21 — [motorway](../motorway.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Road+Reservation+Component+Terms&page-title=Road+Reservation+Component+Terms&page-path=terms%2Fpatterns%2FRoad+Reservation+Component+Terms.md)
+

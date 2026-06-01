@@ -18,8 +18,8 @@ digraph {
 	"remote driver" -> Invis [style=invis]
 	Invis -> nomadicVehicleInputDevice [style=invis]
 	nomadicVehicleInputDevice -> remoteVehicleInputDevice [style=invis]
-	n6a753461eae04194afa77817072c54e9b5 [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1" BGCOLOR="lightyellow"><TR><TD ALIGN="CENTER">«unionOf»</TD></TR></TABLE>> margin=0]
-	n6a753461eae04194afa77817072c54e9b5 -> nomadicVehicleInputDevice [label=member arrowhead=normal style=dotted]
-	n6a753461eae04194afa77817072c54e9b5 -> remoteVehicleInputDevice [label=member arrowhead=normal style=dotted]
-	"remote driver" -> n6a753461eae04194afa77817072c54e9b5 [label=" uses " arrowhead=normal style=solid]
+	n913c3a298648426d8d7426245fc96fa7b5 [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1" BGCOLOR="lightyellow"><TR><TD ALIGN="CENTER">«unionOf»</TD></TR></TABLE>> margin=0]
+	n913c3a298648426d8d7426245fc96fa7b5 -> nomadicVehicleInputDevice [label=member arrowhead=normal style=dotted]
+	n913c3a298648426d8d7426245fc96fa7b5 -> remoteVehicleInputDevice [label=member arrowhead=normal style=dotted]
+	"remote driver" -> n913c3a298648426d8d7426245fc96fa7b5 [label=" uses " arrowhead=normal style=solid]
 }

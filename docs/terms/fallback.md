@@ -23,3 +23,8 @@ History note: Introduced in ISO/TS 14812:2022
 | mayBeCausedBy | some ddtPerformance-relevantSystemFailure |
 | mayBeCausedByAViolationOf | some operationalDesignDomain |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+fallback&page-title=fallback&page-path=terms%2Ffallback.md)
+

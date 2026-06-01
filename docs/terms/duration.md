@@ -19,3 +19,8 @@ History note: Introduced in ISO/TS 14812:2022
 | endsAt | exactly 1 owl::Thing |
 | startsAt | exactly 1 owl::Thing |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+duration&page-title=duration&page-path=terms%2Fduration.md)
+

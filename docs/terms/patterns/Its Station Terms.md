@@ -14,3 +14,8 @@ Clause: 3.2.7
 - 3.2.7.6 — [ITS-S host](../ITS-S host.md)
 - 3.2.7.7 — [ITS-S router](../ITS-S router.md)
 - 3.2.7.8 — [ITS-S node](../ITS-S node.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Its+Station+Terms&page-title=Its+Station+Terms&page-path=terms%2Fpatterns%2FIts+Station+Terms.md)
+

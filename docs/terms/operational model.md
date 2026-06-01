@@ -24,3 +24,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [paired on-demand](paired on-demand.md) | <transport service> [concurrent](concurrent.md) operation where the [transport provider](transport provider.md) may choose to divert from its path to service a new request from another [transport users](transport user.md) while servicing an earlier transport user |
 | [sequential](sequential.md) | [operational model](operational model.md) where [services](service.md) are provided to a single [user](user.md) at any one time |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+operational+model&page-title=operational+model&page-path=terms%2Foperational+model.md)
+

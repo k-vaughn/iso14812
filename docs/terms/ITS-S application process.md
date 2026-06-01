@@ -37,3 +37,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | [ITS application](ITS application.md) | involves |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ITS-S+application+process&page-title=ITS-S+application+process&page-path=terms%2FITS-S+application+process.md)
+

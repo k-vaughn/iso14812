@@ -17,7 +17,15 @@ from markdown_generator import (
     update_mkdocs_nav,
 )
 from ontology_processor_ttl import MASTER_FILE, process_vocabulary
-from utils import get_id, get_label, get_qname, is_abstract, is_publishable_term, remove_placeholder_term_pages
+from utils import (
+    get_id,
+    get_label,
+    get_qname,
+    get_repository_url,
+    is_abstract,
+    is_publishable_term,
+    remove_placeholder_term_pages,
+)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -25,8 +33,78 @@ logging.basicConfig(
 )
 log = logging.getLogger("ttl2mkdocs")
 
+_SUMMARY_LINE = "=" * 72
+
+
+class _SummaryLogHandler(logging.Handler):
+    """Collect warning and error log records for a summary at end of run."""
+
+    def __init__(self) -> None:
+        super().__init__(level=logging.WARNING)
+        self.warnings: list[str] = []
+        self.log_errors: list[str] = []
+
+    def emit(self, record: logging.LogRecord) -> None:
+        try:
+            message = self.format(record)
+        except Exception:
+            message = record.getMessage()
+        if record.levelno >= logging.ERROR:
+            self.log_errors.append(message)
+        else:
+            self.warnings.append(message)
+
+
+def _attach_summary_handler() -> _SummaryLogHandler:
+    handler = _SummaryLogHandler()
+    handler.setFormatter(
+        logging.Formatter("%(levelname)s - %(filename)s:%(lineno)d - %(message)s")
+    )
+    logging.getLogger().addHandler(handler)
+    return handler
+
+
+def _print_run_summary(
+    errors: list[str],
+    warnings: list[str],
+    logged_errors: list[str],
+) -> int:
+    """Reprint warnings and errors after processing. Returns exit code."""
+    merged_errors: list[str] = []
+    seen: set[str] = set()
+    for msg in errors + logged_errors:
+        if msg not in seen:
+            seen.add(msg)
+            merged_errors.append(msg)
+
+    if not warnings and not merged_errors:
+        return 0
+
+    print(f"\n{_SUMMARY_LINE}", file=sys.stderr)
+    print("RUN SUMMARY", file=sys.stderr)
+    print(_SUMMARY_LINE, file=sys.stderr)
+
+    if warnings:
+        print(f"\nWarnings ({len(warnings)}):", file=sys.stderr)
+        print("-" * 72, file=sys.stderr)
+        for index, msg in enumerate(warnings, start=1):
+            print(f"  {index}. {msg}", file=sys.stderr)
+
+    if merged_errors:
+        print(f"\nErrors ({len(merged_errors)}):", file=sys.stderr)
+        print("-" * 72, file=sys.stderr)
+        for index, msg in enumerate(merged_errors, start=1):
+            print(f"  {index}. {msg}", file=sys.stderr)
+            if "\n" in msg:
+                for line in msg.splitlines()[1:]:
+                    print(f"      {line}", file=sys.stderr)
+
+    print(f"\n{_SUMMARY_LINE}\n", file=sys.stderr)
+    return 1 if merged_errors else 0
+
 
 def main() -> None:
+    summary_handler = _attach_summary_handler()
     log.info("Starting ttl2mkdocs.py")
     if len(sys.argv) != 1:
         print("Usage: python ttl2mkdocs.py")
@@ -66,6 +144,7 @@ def main() -> None:
     local_classes: list = []
     modules: dict = {}
     term_collection_map: dict = {}
+    repo_url = get_repository_url(mkdocs_path)
 
     ontology_name = os.path.splitext(os.path.basename(vocab_path))[0]
     log.info("Processing vocabulary: %s", vocab_path)
@@ -89,7 +168,7 @@ def main() -> None:
         ) = result
         ns_to_ontology[ns] = ontology_name
 
-        generate_collection_pages(docs_dir, g, modules, global_patterns, errors)
+        generate_collection_pages(docs_dir, g, modules, global_patterns, errors, repo_url)
 
         for cls in classes:
             cls_qname = get_qname(g, cls, ns, prefix_map)
@@ -140,6 +219,7 @@ def main() -> None:
                     ns_to_ontology,
                     class_to_onts,
                     term_collection_map,
+                    repo_url,
                 )
                 processed_count += 1
             except Exception as exc:
@@ -181,6 +261,7 @@ def main() -> None:
             global_patterns,
             errors,
             class_to_onts,
+            repo_url,
         )
     except Exception as exc:
         error_msg = f"Error generating index.md: {exc}\n{traceback.format_exc()}"
@@ -192,10 +273,12 @@ def main() -> None:
         log.info("Removed %d placeholder term pages", removed)
 
     log.info("Total processed classes: %d", processed_count)
-    if errors:
-        log.error("Errors occurred:")
-        for err in errors:
-            log.error(err)
+    exit_code = _print_run_summary(
+        errors,
+        summary_handler.warnings,
+        summary_handler.log_errors,
+    )
+    sys.exit(exit_code)
 
 
 if __name__ == "__main__":

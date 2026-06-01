@@ -26,3 +26,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | subClassOf | system |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+transport+system&page-title=transport+system&page-path=terms%2Ftransport+system.md)
+

@@ -21,3 +21,8 @@ History note: Introduced in ISO/TS 14812:2022
 | subClassOf | driver |
 | uses | min 1 owl::Thing |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+remote+driver&page-title=remote+driver&page-path=terms%2Fremote+driver.md)
+

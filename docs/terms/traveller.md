@@ -31,3 +31,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [nomadic device](nomadic device.md) | accessedBy |
 | [pedestrian](pedestrian.md) | subClassOf |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+traveller&page-title=traveller&page-path=terms%2Ftraveller.md)
+

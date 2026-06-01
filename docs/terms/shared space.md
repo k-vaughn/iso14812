@@ -16,3 +16,8 @@ Note 1 to entry: The space can be for travel, gatherings, rest, or other purpose
 
 History note: Introduced in ISO/TS 14812:2025
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+shared+space&page-title=shared+space&page-path=terms%2Fshared+space.md)
+

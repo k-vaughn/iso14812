@@ -14,3 +14,8 @@ Alternative preferred term: area identified using ISO 3166-2 identifiers
 
 History note: Introduced in ISO/TS 14812:2025
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ISO+named+area&page-title=ISO+named+area&page-path=terms%2FISO+named+area.md)
+

@@ -16,3 +16,8 @@ Clause: 3.1.9.6
 | --- | --- |
 | subClassOf | planningArchitecture |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ITS+planning+architecture&page-title=ITS+planning+architecture&page-path=terms%2FITS+planning+architecture.md)
+

@@ -31,3 +31,8 @@ History note: Introduced in ISO/TS 14812:2022
 | groups | some process |
 | subClassOf | resource |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+functional+object&page-title=functional+object&page-path=terms%2Ffunctional+object.md)
+

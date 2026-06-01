@@ -20,3 +20,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | subClassOf | its-sNode |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ITS-S+router&page-title=ITS-S+router&page-path=terms%2FITS-S+router.md)
+

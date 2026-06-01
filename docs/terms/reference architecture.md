@@ -27,3 +27,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | subClassOf | architecture |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+reference+architecture&page-title=reference+architecture&page-path=terms%2Freference+architecture.md)
+

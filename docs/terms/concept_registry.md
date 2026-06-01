@@ -389,3 +389,8 @@ This page lists all known terms in the ITS Vocabulary.
 | [vulnerability](vulnerability.md) | weakness of an asset or [control](control.md) that can be exploited by one or more [threats](threat.md) |
 | [vulnerable road user](vulnerable road user.md) | [road user](road user.md) who is not protected by the body of a motor vehicle that meets local safety regulations |
 | [wheel](wheel.md) | circular [material entity](material entity.md) that rotates about an axle to facilitate movement of the [vehicle](vehicle.md) |
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Concept+Registry&page-title=Concept+Registry&page-path=terms%2Fconcept_registry.md)
+

@@ -24,3 +24,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | isRequiredToOperate | some vehicle |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+dynamic+driving+task&page-title=dynamic+driving+task&page-path=terms%2Fdynamic+driving+task.md)
+

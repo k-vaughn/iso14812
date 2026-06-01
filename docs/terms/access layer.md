@@ -28,3 +28,8 @@ History note: Introduced in ISO/TS 14812:2022.
 | --- | --- |
 | [ITS-S access layer](ITS-S access layer.md) | communications layer in the [ITS station reference architecture](ITS-S reference architecture.md) corresponding to the physical and data link layers of the OSI model for ITS communications |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+access+layer&page-title=access+layer&page-path=terms%2Faccess+layer.md)
+

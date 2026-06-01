@@ -16,3 +16,8 @@ Note 2 to entry: Roadside, [shoulder](shoulder.md) and verge define similar but 
 
 History note: Introduced in ISO/TS 14812:2022
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+verge&page-title=verge&page-path=terms%2Fverge.md)
+

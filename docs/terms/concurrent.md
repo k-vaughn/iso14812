@@ -34,3 +34,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [fixed route](fixed route.md) | subClassOf |
 | [paired on-demand](paired on-demand.md) | subClassOf |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+concurrent&page-title=concurrent&page-path=terms%2Fconcurrent.md)
+

@@ -74,3 +74,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [vehicle load type](vehicle load type.md) | loadCarriedBy |
 | [vehicle registration plate identifier](vehicle registration plate identifier.md) | identifierUniqueWithinRegionFor |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+vehicle&page-title=vehicle&page-path=terms%2Fvehicle.md)
+

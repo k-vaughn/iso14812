@@ -40,3 +40,8 @@ History note: Introduced in ISO/TS 14812:2022
 | comprises | some ads |
 | subClassOf | vehicle |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ADS-equipped+vehicle&page-title=ADS-equipped+vehicle&page-path=terms%2FADS-equipped+vehicle.md)
+

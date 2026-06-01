@@ -20,3 +20,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | subClassOf | link |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+road+segment&page-title=road+segment&page-path=terms%2Froad+segment.md)
+

@@ -31,3 +31,8 @@ History note: Introduced in ISO/TS 14812:2022
 | from | some ingressLane |
 | to | some egressLane |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+intersection+manoeuvre&page-title=intersection+manoeuvre&page-path=terms%2Fintersection+manoeuvre.md)
+

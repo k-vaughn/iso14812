@@ -44,6 +44,11 @@ from utils import (
     group_breadcrumb,
     pattern_breadcrumb,
     index_breadcrumb,
+    page_feedback_markup,
+    group_nav_path,
+    pattern_nav_path,
+    term_nav_path,
+    concept_registry_nav_path,
 )
 
 log = logging.getLogger("ttl2mkdocs")
@@ -149,6 +154,7 @@ def generate_collection_pages(
     modules: dict,
     global_patterns: dict,
     errors: list,
+    repo_url: str | None = None,
 ) -> None:
     """Generate index pages for ontology groups and patterns."""
     groups_dir = os.path.join(docs_dir, TERMS_SUBDIR, GROUPS_SUBDIR)
@@ -212,6 +218,7 @@ def generate_collection_pages(
                 for _, parent_clause, sub_title in pattern_rows:
                     link = f"../{PATTERNS_SUBDIR}/{pattern_page_filename(sub_title)}"
                     body += collection_list_item(parent_clause, sub_title, link)
+                body += page_feedback_markup(title, group_nav_path(title), repo_url)
                 with open(path, "w", encoding="utf-8") as f:
                     f.write(body)
                 log.debug("Generated group page: %s", path)
@@ -236,6 +243,7 @@ def generate_collection_pages(
                         continue
                     link = f"../{term_page_link(cls_name)}"
                     body += collection_list_item(clause_disp, cls_name, link)
+                body += page_feedback_markup(title, pattern_nav_path(title), repo_url)
                 with open(path, "w", encoding="utf-8") as f:
                     f.write(body)
                 log.debug("Generated pattern page: %s", path)
@@ -262,6 +270,7 @@ def generate_markdown(
     ns_to_ontology: dict,
     class_to_onts: dict,
     term_collection_map: dict,
+    repo_url: str | None = None,
 ):
     """Generate Markdown file for a class, including all superclasses and disjoint statements in Formalization."""
     docs_dir = os.path.dirname(file_path)
@@ -428,6 +437,7 @@ def generate_markdown(
             + used_by_md
             + other_annot_md
         )
+        content += page_feedback_markup(cls_name, term_nav_path(cls_name), repo_url)
 
     # Write Markdown file
     try:
@@ -537,7 +547,15 @@ def update_mkdocs_nav(
         log.error(error_msg)
         raise
 
-def generate_index(docs_dir: str, input_file: str, ontology_info: dict, global_patterns: dict, errors: list, class_to_onts: dict):
+def generate_index(
+    docs_dir: str,
+    input_file: str,
+    ontology_info: dict,
+    global_patterns: dict,
+    errors: list,
+    class_to_onts: dict,
+    repo_url: str | None = None,
+):
     """Generate index.md file."""
     index_path = os.path.join(docs_dir, "index.md")
     index_content = ""
@@ -558,6 +576,7 @@ def generate_index(docs_dir: str, input_file: str, ontology_info: dict, global_p
     if description:
         index_content += f"{description}\n\n"
     index_content += f"\nThe formal definition of the terms is available in [{os.path.splitext(filename)[1][1:].upper()} Syntax]({filename}).\n"
+    index_content += page_feedback_markup(title, "index.md", repo_url)
 
     # Write index.md
     try:

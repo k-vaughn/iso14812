@@ -35,3 +35,8 @@ History note: Introduced in ISO/TS 14812:2022
 | designedToBenefit | some surfaceTransportSystem |
 | subClassOf | system |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+intelligent+transport+system&page-title=intelligent+transport+system&page-path=terms%2Fintelligent+transport+system.md)
+

@@ -20,3 +20,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [station-based one-way](station-based one-way.md) | <transport service> [operational mode](operational mode.md) where the [transport service](transport service.md) is initiated and terminated at two different facilities managed by the [transport provider](transport provider.md) |
 | [station-based roundtrip](station-based roundtrip.md) | <transport service> [operational mode](operational mode.md) where the [transport service](transport service.md) is initiated and terminated at the same facility managed by the [transport provider](transport provider.md) |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+network+model&page-title=network+model&page-path=terms%2Fnetwork+model.md)
+

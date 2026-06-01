@@ -32,3 +32,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | [data element](data element.md) | describes |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+class&page-title=class&page-path=terms%2Fclass.md)
+

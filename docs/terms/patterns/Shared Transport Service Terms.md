@@ -13,3 +13,8 @@ Clause: 3.5.11
 - 3.5.11.5 — [ridesourced service](../ridesourced service.md)
 - 3.5.11.6 — [ridesplit service](../ridesplit service.md)
 - 3.5.11.7 — [courier network service](../courier network service.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Shared+Transport+Service+Terms&page-title=Shared+Transport+Service+Terms&page-path=terms%2Fpatterns%2FShared+Transport+Service+Terms.md)
+

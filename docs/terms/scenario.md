@@ -16,3 +16,8 @@ Source: ISO/IEC 25062:2006, A.17
 
 History note: Introduced in ISO/TS 14812:2022
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+scenario&page-title=scenario&page-path=terms%2Fscenario.md)
+

@@ -28,3 +28,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [extend](extend.md) | subClassOf |
 | [include](include.md) | subClassOf |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+relationship&page-title=relationship&page-path=terms%2Frelationship.md)
+

@@ -20,3 +20,8 @@ History note: Introduced in ISO/TS 14812:2025
 | --- | --- |
 | operatingMassOf | exactly 1 owl::Thing |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+gross+vehicle+mass&page-title=gross+vehicle+mass&page-path=terms%2Fgross+vehicle+mass.md)
+

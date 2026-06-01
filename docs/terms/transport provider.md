@@ -23,3 +23,8 @@ History note: Introduced in ISO/TS 14812:2022
 | delivers | some transportService |
 | subClassOf | serviceProvider |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+transport+provider&page-title=transport+provider&page-path=terms%2Ftransport+provider.md)
+

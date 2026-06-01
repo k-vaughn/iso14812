@@ -22,3 +22,8 @@ History note: Introduced in ISO/TS 14812:2022
 | aggregates | some terminator |
 | subClassOf | architectureView |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+functional+view&page-title=functional+view&page-path=terms%2Ffunctional+view.md)
+

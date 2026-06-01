@@ -22,3 +22,8 @@ History note: Introduced in ISO/TS 14812:2022
 | isA | some its-sUnit |
 | subClassOf | serviceProvider |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ITS-SU+service+provider&page-title=ITS-SU+service+provider&page-path=terms%2FITS-SU+service+provider.md)
+

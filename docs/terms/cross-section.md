@@ -10,7 +10,7 @@ transverse view of [road](road.md) geometry
 
 Clause: 3.3.1.1
 
-EXAMPLE: n7e7d219b94e14015863ebd99c2f7c675b2
+EXAMPLE: n902d49f80fe4422680fb4b74ea8b63ceb2
 
 Note 1 to entry: The transverse view provides a vertical section of the ground and [carriageway](carriageway.md) at right angles to the centre line of the carriageway.
 
@@ -21,4 +21,9 @@ History note: Introduced in ISO/TS 14812:2022
 | Property | Constraint |
 | --- | --- |
 | comprises | some roadReservation |
+
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+cross-section&page-title=cross-section&page-path=terms%2Fcross-section.md)
 

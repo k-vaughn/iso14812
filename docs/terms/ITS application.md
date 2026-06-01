@@ -25,3 +25,8 @@ History note: Introduced in ISO/TS 14812:2022
 | involves | min 2 owl::Thing |
 | realizationOf | some itsService |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+ITS+application&page-title=ITS+application&page-path=terms%2FITS+application.md)
+

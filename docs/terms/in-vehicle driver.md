@@ -21,3 +21,8 @@ History note: Introduced in ISO/TS 14812:2022
 | subClassOf | driver |
 | uses | some built-inVehicleInputDevice |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+in-vehicle+driver&page-title=in-vehicle+driver&page-path=terms%2Fin-vehicle+driver.md)
+

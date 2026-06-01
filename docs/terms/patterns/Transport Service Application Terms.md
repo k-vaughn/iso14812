@@ -15,3 +15,8 @@ Clause: 3.5.5
 - 3.5.5.8 — [real-time traveller information app](../real-time traveller information app.md)
 - 3.5.5.9 — [taxi hailing app](../taxi hailing app.md)
 - 3.5.5.10 — [trip aggregator app](../trip aggregator app.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Transport+Service+Application+Terms&page-title=Transport+Service+Application+Terms&page-path=terms%2Fpatterns%2FTransport+Service+Application+Terms.md)
+

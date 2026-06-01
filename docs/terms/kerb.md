@@ -20,3 +20,8 @@ History note: Introduced in ISO/TS 14812:2025
 | --- | --- |
 | subClassOf | physicalTrafficSeparator |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+kerb&page-title=kerb&page-path=terms%2Fkerb.md)
+

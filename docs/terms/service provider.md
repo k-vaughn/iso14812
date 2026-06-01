@@ -27,3 +27,8 @@ History note: Introduced in ISO/TS 14812:2022
 | delivers | some service |
 | subClassOf | entity |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+service+provider&page-title=service+provider&page-path=terms%2Fservice+provider.md)
+

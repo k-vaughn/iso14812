@@ -16,3 +16,8 @@
 - 3.5.10 — [Network Model Terms](../patterns/Network Model Terms.md)
 - 3.5.11 — [Shared Transport Service Terms](../patterns/Shared Transport Service Terms.md)
 - 3.5.12 — [Shared Vehicle Terms](../patterns/Shared Vehicle Terms.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Service+Terms&page-title=Service+Terms&page-path=terms%2Fgroups%2FService+Terms.md)
+

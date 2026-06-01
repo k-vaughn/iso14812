@@ -22,3 +22,8 @@ Clause: 3.1.14
 - 3.1.14.14 — [transparency](../transparency.md)
 - 3.1.14.15 — [trustworthiness](../trustworthiness.md)
 - 3.1.14.16 — [vulnerability](../vulnerability.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Information+Security+Terms&page-title=Information+Security+Terms&page-path=terms%2Fpatterns%2FInformation+Security+Terms.md)
+

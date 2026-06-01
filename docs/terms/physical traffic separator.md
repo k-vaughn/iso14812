@@ -33,3 +33,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [dual carriageway](dual carriageway.md) | has |
 | [multiple carriageway](multiple carriageway.md) | has |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+physical+traffic+separator&page-title=physical+traffic+separator&page-path=terms%2Fphysical+traffic+separator.md)
+

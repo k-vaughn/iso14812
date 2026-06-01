@@ -20,3 +20,8 @@ Clause: 3.3.5
 - 3.3.5.12 — [road identifier](../road identifier.md)
 - 3.3.5.13 — [service road](../service road.md)
 - 3.3.5.14 — [service alley](../service alley.md)
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+Road+Network+Terms&page-title=Road+Network+Terms&page-path=terms%2Fpatterns%2FRoad+Network+Terms.md)
+

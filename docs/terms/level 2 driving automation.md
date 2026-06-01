@@ -23,3 +23,8 @@ History note: Introduced in ISO/TS 14812:2022
 | operatesWithinA | some operationalDesignDomain |
 | subClassOf | driverSupportSystem |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+level+2+driving+automation&page-title=level+2+driving+automation&page-path=terms%2Flevel+2+driving+automation.md)
+

@@ -20,3 +20,8 @@ History note: 2025: Revised based on input from WG 16 and to align more closely 
 
 History note: Introduced in ISO/TS 14812:2022.
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+facilities+layer&page-title=facilities+layer&page-path=terms%2Ffacilities+layer.md)
+

@@ -14,3 +14,8 @@ Source: ISO/IEC 27000:2018, 3.49
 
 History note: Introduced in ISO/TS 14812:2025
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+objective&page-title=objective&page-path=terms%2Fobjective.md)
+

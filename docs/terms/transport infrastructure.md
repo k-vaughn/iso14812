@@ -21,3 +21,8 @@ History note: Introduced in ISO/TS 14812:2025
 | subClassOf | system |
 | systemOf | some transportFacility |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+transport+infrastructure&page-title=transport+infrastructure&page-path=terms%2Ftransport+infrastructure.md)
+

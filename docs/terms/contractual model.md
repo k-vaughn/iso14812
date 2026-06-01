@@ -25,3 +25,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [peer-to-peer](peer-to-peer.md) | <transport service> [private customer model](private customer model.md) where the [service provider](service provider.md) is an individual |
 | [private customer model](private customer model.md) | [contractual model](contractual model.md) where the [user](user.md) is an individual |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+contractual+model&page-title=contractual+model&page-path=terms%2Fcontractual+model.md)
+

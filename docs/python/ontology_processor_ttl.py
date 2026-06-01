@@ -23,6 +23,7 @@ from utils import (
     is_publishable_term,
     md_table_delimiter,
     update_concept_registry,
+    get_repository_url,
 )
 
 log = logging.getLogger("ttl2mkdocs")
@@ -590,7 +591,12 @@ def process_vocabulary(
     global_patterns = build_global_patterns(modules, pattern_classes)
     validate_collection_clauses(modules, global_patterns)
     term_collection_map = build_term_collection_map(modules, pattern_classes)
-    update_concept_registry(script_dir, registry, term_collection_map)
+    update_concept_registry(
+        script_dir,
+        registry,
+        term_collection_map,
+        get_repository_url(),
+    )
 
     classes = set(graph.subjects(RDF.type, OWL.Class)) - {OWL.Thing}
     local_classes = [

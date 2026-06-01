@@ -24,3 +24,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | subClassOf | concurrent |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+dynamic+route&page-title=dynamic+route&page-path=terms%2Fdynamic+route.md)
+

@@ -12,3 +12,8 @@ Clause: 3.1.3.9
 
 History note: Introduced in ISO/TS 14812:2022
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+architecture+model&page-title=architecture+model&page-path=terms%2Farchitecture+model.md)
+

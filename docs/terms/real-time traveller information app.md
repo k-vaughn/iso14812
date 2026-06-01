@@ -18,3 +18,8 @@ History note: Introduced in ISO/TS 14812:2022
 | --- | --- |
 | subClassOf | mobilityApp |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+real-time+traveller+information+app&page-title=real-time+traveller+information+app&page-path=terms%2Freal-time+traveller+information+app.md)
+

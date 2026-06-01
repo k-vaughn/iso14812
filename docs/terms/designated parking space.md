@@ -28,3 +28,8 @@ History note: Introduced in ISO/TS 14812:2025
 | --- | --- |
 | subClassOf | parkingSpace |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+designated+parking+space&page-title=designated+parking+space&page-path=terms%2Fdesignated+parking+space.md)
+

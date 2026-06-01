@@ -18,3 +18,8 @@ Source: ISO/IEC/IEEE 24765:2017, definitions 1 and 2 merged with example and not
 
 History note: Introduced in ISO/TS 14812:2025
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+implementation&page-title=implementation&page-path=terms%2Fimplementation.md)
+

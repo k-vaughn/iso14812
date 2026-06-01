@@ -23,3 +23,8 @@ History note: Introduced in ISO/TS 14812:2022
 | [private](private.md) | <transport service> [financial model](financial model.md) where [services](service.md) are provided to members of the owning organization without usage fees |
 | [public](public.md) | type of [financial model](financial model.md) where [services](service.md) are provided by an administrative authority in an attempt to better serve societal interests |
 
+
+---
+
+[Comment on this page](https://github.com/ISO-TC204/iso14812/issues/new?template=page-feedback.yml&title=%5BPage+feedback%5D+financial+model&page-title=financial+model&page-path=terms%2Ffinancial+model.md)
+
