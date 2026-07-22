@@ -16,7 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :built-inVehicleInputDevice a owl:Class ;
     rdfs:subClassOf :vehicleInputDevice ;
-    skos:definition "[input device](input device.md) designed to be physically [connected](connected.md) to a [vehicle](vehicle.md) and to remain connected even when the vehicle is not in use"@en ;
+    skos:definition "[vehicle input device](vehicle input device.md) designed to be physically [connected](connected.md) to a [vehicle](vehicle.md) and to remain connected even when the vehicle is not in use"@en ;
     skos:historyNote "Introduced in ISO/TS 14812:2022"@en ;
     skos:note "Built-in input devices are typically considered to be a part of the vehicle."@en,
         "Built-in input devices include devices that can be temporarily [disconnected](disconnected.md) for security reasons (e.g. some radios are equipped with detachable front panels)."@en,
@@ -27,7 +27,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :nomadicVehicleInputDevice a owl:Class ;
     rdfs:subClassOf :vehicleInputDevice ;
-    skos:definition "[input device](input device.md) that can be carried into, or in near proximity of, a [vehicle](vehicle.md) and [connected](connected.md) as desired"@en ;
+    skos:definition "[vehicle input device](vehicle input device.md) that can be carried into, or in near proximity of, a [vehicle](vehicle.md) and [connected](connected.md) as desired"@en ;
     skos:example "A smartphone connected to a vehicle (via USB or Bluetooth) to provide [driver](driver.md) navigation on the vehicle's large screen display"@en ;
     skos:historyNote "Introduced in ISO/TS 14812:2022"@en ;
     skos:note "NDs are often more closely associated with a [person](person.md) than they are with the vehicle."@en,
@@ -38,7 +38,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :remoteVehicleInputDevice a owl:Class ;
     rdfs:subClassOf :vehicleInputDevice ;
-    skos:definition "[input device](input device.md) designed to be electronically [connected](connected.md) to a [vehicle](vehicle.md) even when the vehicle is not in close proximity"@en ;
+    skos:definition "[vehicle input device](vehicle input device.md) designed to be electronically [connected](connected.md) to a [vehicle](vehicle.md) even when the vehicle is not in close proximity"@en ;
     skos:historyNote "Introduced in ISO/TS 14812:2022"@en ;
     skos:prefLabel "remote vehicle input device"@en ;
     :altPrefLabel "remote input device"@en ;

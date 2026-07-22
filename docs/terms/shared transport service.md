@@ -2,7 +2,7 @@
 
 # shared transport service
 
-[transport service](transport service.md) that relies upon the same [resources](resource.md) to fulfil the [transport needs](transport need.md) of multiple unrelated [transport users](transport user.md) and where the [transport provider](transport provider.md) has the primary responsibility for the operation of the transport mode
+[transport service](transport service.md) that relies upon the same [resources](resource.md) to fulfil the [transport user needs](transport user need.md) of multiple unrelated [transport users](transport user.md) and where the [transport provider](transport provider.md) has the primary responsibility for the operation of the transport mode
 
 <object type="image/svg+xml" data="../../diagrams/shared transport service.dot.svg">
     <img alt="shared transport service Diagram" src="../../diagrams/shared transport service.dot.png" /> <!-- Fallback for non-SVG browsers -->

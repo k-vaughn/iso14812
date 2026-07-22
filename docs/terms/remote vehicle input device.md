@@ -2,7 +2,7 @@
 
 # remote vehicle input device
 
-[input device](input device.md) designed to be electronically [connected](connected.md) to a [vehicle](vehicle.md) even when the vehicle is not in close proximity
+[vehicle input device](vehicle input device.md) designed to be electronically [connected](connected.md) to a [vehicle](vehicle.md) even when the vehicle is not in close proximity
 
 <object type="image/svg+xml" data="../../diagrams/remote vehicle input device.dot.svg">
     <img alt="remote vehicle input device Diagram" src="../../diagrams/remote vehicle input device.dot.png" /> <!-- Fallback for non-SVG browsers -->

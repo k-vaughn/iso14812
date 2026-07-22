@@ -2,7 +2,7 @@
 
 # Architecture Enterprise View Terms
 
-Clause: 3.1
+Clause: 3.1.6
 
 ## Terms
 
@@ -12,10 +12,10 @@ Clause: 3.1
 - 3.1.6.4 — [interaction](../interaction.md)
 - 3.1.6.5 — [formal coordination](../formal coordination.md)
 - 3.1.6.6 — [informal coordination](../informal coordination.md)
+- 3.1.6.7 — [role](../role.md)
 - 3.1.6.8 — [relationship](../relationship.md)
 - 3.1.6.9 — [include](../include.md)
 - 3.1.6.10 — [extend](../extend.md)
-- 3.1.12.3 — [role](../role.md)
 
 ---
 

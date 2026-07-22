@@ -22,9 +22,9 @@ History note: Introduced in ISO/TS 14812:2022
 
 | Class | Description |
 | --- | --- |
-| [built-in vehicle input device](built-in vehicle input device.md) | [input device](input device.md) designed to be physically [connected](connected.md) to a [vehicle](vehicle.md) and to remain connected even when the vehicle is not in use |
-| [nomadic vehicle input device](nomadic vehicle input device.md) | [input device](input device.md) that can be carried into, or in near proximity of, a [vehicle](vehicle.md) and [connected](connected.md) as desired |
-| [remote vehicle input device](remote vehicle input device.md) | [input device](input device.md) designed to be electronically [connected](connected.md) to a [vehicle](vehicle.md) even when the vehicle is not in close proximity |
+| [built-in vehicle input device](built-in vehicle input device.md) | [vehicle input device](vehicle input device.md) designed to be physically [connected](connected.md) to a [vehicle](vehicle.md) and to remain connected even when the vehicle is not in use |
+| [nomadic vehicle input device](nomadic vehicle input device.md) | [vehicle input device](vehicle input device.md) that can be carried into, or in near proximity of, a [vehicle](vehicle.md) and [connected](connected.md) as desired |
+| [remote vehicle input device](remote vehicle input device.md) | [vehicle input device](vehicle input device.md) designed to be electronically [connected](connected.md) to a [vehicle](vehicle.md) even when the vehicle is not in close proximity |
 
 ## Relationships for vehicle input device
 

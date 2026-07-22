@@ -2,7 +2,7 @@
 
 # built-in vehicle input device
 
-[input device](input device.md) designed to be physically [connected](connected.md) to a [vehicle](vehicle.md) and to remain connected even when the vehicle is not in use
+[vehicle input device](vehicle input device.md) designed to be physically [connected](connected.md) to a [vehicle](vehicle.md) and to remain connected even when the vehicle is not in use
 
 <object type="image/svg+xml" data="../../diagrams/built-in vehicle input device.dot.svg">
     <img alt="built-in vehicle input device Diagram" src="../../diagrams/built-in vehicle input device.dot.png" /> <!-- Fallback for non-SVG browsers -->
