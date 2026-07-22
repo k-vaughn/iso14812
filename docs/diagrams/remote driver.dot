@@ -18,8 +18,8 @@ digraph {
 	"remote driver" -> Invis [style=invis]
 	Invis -> nomadicVehicleInputDevice [style=invis]
 	nomadicVehicleInputDevice -> remoteVehicleInputDevice [style=invis]
-	n913c3a298648426d8d7426245fc96fa7b5 [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1" BGCOLOR="lightyellow"><TR><TD ALIGN="CENTER">«unionOf»</TD></TR></TABLE>> margin=0]
-	n913c3a298648426d8d7426245fc96fa7b5 -> nomadicVehicleInputDevice [label=member arrowhead=normal style=dotted]
-	n913c3a298648426d8d7426245fc96fa7b5 -> remoteVehicleInputDevice [label=member arrowhead=normal style=dotted]
-	"remote driver" -> n913c3a298648426d8d7426245fc96fa7b5 [label=" uses " arrowhead=normal style=solid]
+	n26ce95a9fe534a198f3e7e3341d606a4b5 [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1" BGCOLOR="lightyellow"><TR><TD ALIGN="CENTER">«unionOf»</TD></TR></TABLE>> margin=0]
+	n26ce95a9fe534a198f3e7e3341d606a4b5 -> nomadicVehicleInputDevice [label=member arrowhead=normal style=dotted]
+	n26ce95a9fe534a198f3e7e3341d606a4b5 -> remoteVehicleInputDevice [label=member arrowhead=normal style=dotted]
+	"remote driver" -> n26ce95a9fe534a198f3e7e3341d606a4b5 [label=" uses " arrowhead=normal style=solid]
 }

@@ -65,15 +65,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     :altPrefLabel "enterprise view informal coordination"@en ;
     :clause "3.1.6.6"@en .
 
-:role a owl:Class ;
-    dcterms:source "ISO/IEC 11179-3:2013, 3.2.121"@en ;
-    skos:definition "<enterprise view> [element](element.md) that represents the specified responsibilities between an [enterprise object](enterprise object.md) and another [enterprise view](enterprise view.md) element"@en,
-        "specified responsibilities"@en ;
+:enterpriseViewRole a owl:Class ;
+    skos:definition "<enterprise view> [element](element.md) that represents the specified responsibilities between an [enterprise object](enterprise object.md) and another [enterprise view](enterprise view.md) element"@en ;
     skos:historyNote "Introduced in ISO/TS 14812:2022"@en ;
     skos:prefLabel "role"@en ;
     :altPrefLabel "enterprise view role"@en ;
-    :clause "3.1.12.3"@en,
-        "3.1.6.7"@en .
+    :clause "3.1.6.7"@en .
 
 :resource a owl:Class ;
     skos:definition "<enterprise view> [element](element.md) that represents an [entity](entity.md) that is managed, operated, referenced and/or used to develop and provide [ITS](intelligent transport system.md)"@en ;

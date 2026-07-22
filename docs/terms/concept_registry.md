@@ -31,7 +31,7 @@ This page lists all known terms in the ITS Vocabulary.
 | [block-face](block-face.md) | extent of sidewalk on one side of a street between two consecutive intersections crossing that street |
 | [bounded secured managed domain](bounded secured managed domain.md) | abstract [entity](entity.md) representing a managed processing and memory [environment](environment.md) that provides protection from code and data that has not been determined to meet established security requirements |
 | [bridge](bridge.md) | [transport facility](transport facility.md) built over a gap to provide a continuous travel path |
-| [built-in vehicle input device](built-in vehicle input device.md) | [input device](input device.md) designed to be physically [connected](connected.md) to a [vehicle](vehicle.md) and to remain connected even when the vehicle is not in use |
+| [built-in vehicle input device](built-in vehicle input device.md) | [vehicle input device](vehicle input device.md) designed to be physically [connected](connected.md) to a [vehicle](vehicle.md) and to remain connected even when the vehicle is not in use |
 | [campus](campus.md) | [jurisdictional area](jurisdictional area.md) with a [jurisdictional entity](jurisdictional entity.md) who is the owner of the area but excluding transport facilities managed by the local government |
 | [carriageway](carriageway.md) | contiguous area of paved [roadway](roadway.md) designed for the use of vehicles along a [road segment](road segment.md) |
 | [carsharing service](carsharing service.md) | [shared vehicle service](shared vehicle service.md) that shares [passenger](passenger.md) cars |
@@ -240,7 +240,7 @@ This page lists all known terms in the ITS Vocabulary.
 | [node](node.md) | <road network> component of a [road model](road model.md) representing a [point location](point location.md) of the [road network](road network.md) graph |
 | [nomadic device](nomadic device.md) | [personal information device](personal information device.md) that is taken with and can be accessed by the [traveller](traveller.md) during a journey |
 | [nomadic vehicle device](nomadic vehicle device.md) | [personal system](personal system.md) consisting of global navigation satellite system (GNSS) and/or wireless [modules](module.md) that are connected to a [vehicle](vehicle.md) during a trip |
-| [nomadic vehicle input device](nomadic vehicle input device.md) | [input device](input device.md) that can be carried into, or in near proximity of, a [vehicle](vehicle.md) and [connected](connected.md) as desired |
+| [nomadic vehicle input device](nomadic vehicle input device.md) | [vehicle input device](vehicle input device.md) that can be carried into, or in near proximity of, a [vehicle](vehicle.md) and [connected](connected.md) as desired |
 | [non-biological entity](non-biological entity.md) | [material entity](material entity.md) that is not and has never been a living organism |
 | [non-repudiation](non-repudiation.md) | ability to prove the occurrence of a claimed event or action and its originating entities |
 | [non-road cycle](non-road cycle.md) | human-powered [vehicle](vehicle.md) not meeting the legal requirements to be driven in [cycle lanes](cycle lane.md) |
@@ -290,7 +290,7 @@ This page lists all known terms in the ITS Vocabulary.
 | [reference architecture](reference architecture.md) | [architecture](architecture.md) that provides a template solution for [planning](planning architecture.md) and [deployment architectures](deployment architecture.md) |
 | [relationship](relationship.md) | <enterprise view> [element](element.md) that represents an association between two [resources](resource.md) |
 | [remote driver](remote driver.md) | [driver](driver.md) that performs the [dynamic driving task](dynamic driving task.md) without using the [vehicle's](vehicle.md) built-in [input devices](input device.md) to control the longitudinal and lateral movement of the vehicle |
-| [remote vehicle input device](remote vehicle input device.md) | [input device](input device.md) designed to be electronically [connected](connected.md) to a [vehicle](vehicle.md) even when the vehicle is not in close proximity |
+| [remote vehicle input device](remote vehicle input device.md) | [vehicle input device](vehicle input device.md) designed to be electronically [connected](connected.md) to a [vehicle](vehicle.md) even when the vehicle is not in close proximity |
 | [requirement](requirement.md) | provision that contains criteria to be fulfilled |
 | [requirements specification](requirements specification.md) | document that specifies the requirements for a system or component |
 | [reserved lane](reserved lane.md) | [traffic lane](traffic lane.md) restricted to a specific subset of [road vehicles](road vehicle.md) or [user](user.md) categories |
@@ -317,6 +317,7 @@ This page lists all known terms in the ITS Vocabulary.
 | [roadside unit](roadside unit.md) | part of [connected vehicle roadside equipment](connected vehicle roadside equipment.md) that provides wireless connectivity to [vehicle systems](vehicle system.md) and/or [personal systems](personal system.md) |
 | [roadway](roadway.md) | part of the surface of the [road reservation](road reservation.md) primarily designed for the movement of [vehicles](vehicle.md) that conform to a specified set of requirements |
 | [role](role.md) | <enterprise view> [element](element.md) that represents the specified responsibilities between an [enterprise object](enterprise object.md) and another [enterprise view](enterprise view.md) element |
+| [role](role.md) | specified responsibilities |
 | [scenario](scenario.md) | <use case> description of the sequence of events from the [user's](user.md) perspective to perform a task in a specified context |
 | [security entity](security entity.md) | part of the [ITS station reference architecture](ITS-S reference architecture.md) that is responsible for providing communication security and [system](system.md) security |
 | [sensor](sensor.md) | device with the capability of observing one or more properties of a [material entity](material entity.md) and converting those properties into meaningful signals |
@@ -326,7 +327,7 @@ This page lists all known terms in the ITS Vocabulary.
 | [service provider](service provider.md) | [entity](entity.md) that delivers one or more [services](service.md) |
 | [service road](service road.md) | road designed to facilitate the provision of services to customers |
 | [shared space](shared space.md) | public area space for use by users with distinctly different characteristics |
-| [shared transport service](shared transport service.md) | [transport service](transport service.md) that relies upon the same [resources](resource.md) to fulfil the [transport needs](transport need.md) of multiple unrelated [transport users](transport user.md) and where the [transport provider](transport provider.md) has the primary responsibility for the operation of the transport mode |
+| [shared transport service](shared transport service.md) | [transport service](transport service.md) that relies upon the same [resources](resource.md) to fulfil the [transport user needs](transport user need.md) of multiple unrelated [transport users](transport user.md) and where the [transport provider](transport provider.md) has the primary responsibility for the operation of the transport mode |
 | [shared vehicle service](shared vehicle service.md) | [transport service](transport service.md) that [sequentially](sequential.md) provides the same [vehicles](vehicle.md) to multiple unrelated [transport users](transport user.md) and where the transport user has the primary responsibility for the operation of the vehicle |
 | [shoulder](shoulder.md) | either a [hard shoulder](hard shoulder.md) or a [soft shoulder](soft shoulder.md) |
 | [shuttle service](shuttle service.md) | [shared transport service](shared transport service.md) that transports [passengers](passenger.md) between two specified [spatial locations](spatial location.md) |

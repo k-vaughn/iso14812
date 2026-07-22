@@ -472,8 +472,29 @@ def update_mkdocs_nav(
         log.error(error_msg)
         raise
 
-    new_nav = [{"Home": "index.md"}, {"Alphabetical Listing": concept_registry_nav_path()}]
-    
+    # Preserve leading external/site links; nest generated pages under Vocabulary.
+    prefix_nav = [
+        {"TC204 on ISO.org": "https://www.iso.org/committee/54706.html"},
+        {"TC 204 Home": "https://isotc204.org/"},
+    ]
+    existing_nav = config.get("nav") or []
+    if isinstance(existing_nav, list) and existing_nav:
+        preserved = []
+        for item in existing_nav:
+            if not isinstance(item, dict) or len(item) != 1:
+                break
+            key = next(iter(item))
+            if key == "Vocabulary":
+                break
+            preserved.append(item)
+        if preserved:
+            prefix_nav = preserved
+
+    vocabulary_nav = [
+        {"Home": "index.md"},
+        {"Alphabetical Listing": concept_registry_nav_path()},
+    ]
+
     file_path = input_file
     ontology_name = ontology_info[file_path]["ontology_name"]
     # Find the "Terms" top-level collection (adjust IRI if needed)
@@ -532,11 +553,12 @@ def update_mkdocs_nav(
             top_level_items.append({display_cls: term_nav_path(cls_name)})
             log.info(f"Added top-level class to nav: {cls_name} ({display_cls})")
 
-        new_nav.extend(top_level_items)
-        config["nav"] = new_nav
+        vocabulary_nav.extend(top_level_items)
+        config["nav"] = [*prefix_nav, {"Vocabulary": vocabulary_nav}]
 
     else:
-        log.warning("Top-level 'Terms' collection not found – falling back to all patterns")    
+        log.warning("Top-level 'Terms' collection not found – falling back to all patterns")
+        config["nav"] = [*prefix_nav, {"Vocabulary": vocabulary_nav}]
 
     try:
         with open(mkdocs_path, 'w', encoding="utf-8") as f:

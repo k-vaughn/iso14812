@@ -8,7 +8,7 @@
     <img alt="trip aggregator app Diagram" src="../../diagrams/trip aggregator app.dot.png" /> <!-- Fallback for non-SVG browsers -->
 </object>
 
-Clause: 3.5.5.10
+Clause: 3.5.5.3
 
 Note 1 to entry: The assistance can include reservations, ticketing and similar [services](service.md).
 

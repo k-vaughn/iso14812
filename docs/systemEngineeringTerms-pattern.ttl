@@ -31,3 +31,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "scenario"@en ;
     :altPrefLabel "use case scenario"@en ;
     :clause "3.1.12.2"@en .
+
+:role a owl:Class ;
+    dcterms:source "ISO/IEC 11179-3:2013, 3.2.121"@en ;
+    skos:definition "specified responsibilities"@en ;
+    skos:historyNote "Introduced in ISO/TS 14812:2025"@en ;
+    skos:prefLabel "role"@en ;
+    :clause "3.1.12.3"@en .

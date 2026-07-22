@@ -21,7 +21,7 @@ History note: Introduced in ISO/TS 14812:2022
 | [ADS-dedicated vehicle](ADS-dedicated vehicle.md) | [ADS-equipped vehicle](ADS-equipped vehicle.md) designed for only driverless operation for complete trips |
 | [ADS-equipped vehicle](ADS-equipped vehicle.md) | [vehicle](vehicle.md) integrated with an [ADS](ADS.md) |
 | [biological entity](biological entity.md) | [material entity](material entity.md) that was or is a living organism |
-| [built-in vehicle input device](built-in vehicle input device.md) | [input device](input device.md) designed to be physically [connected](connected.md) to a [vehicle](vehicle.md) and to remain connected even when the vehicle is not in use |
+| [built-in vehicle input device](built-in vehicle input device.md) | [vehicle input device](vehicle input device.md) designed to be physically [connected](connected.md) to a [vehicle](vehicle.md) and to remain connected even when the vehicle is not in use |
 | [connected vehicle](connected vehicle.md) | [vehicle](vehicle.md) that is [connected](connected.md) using one or more communication media |
 | [conventional vehicle](conventional vehicle.md) | <driving automation> [vehicle](vehicle.md) designed to be operated by a [person](person.md) during part or all of every trip. |
 | [dual-mode vehicle](dual-mode vehicle.md) | <driving automation> [ADS-equipped vehicle](ADS-equipped vehicle.md) designed for both driverless operation and operation by a conventional [driver](driver.md) for complete trips |
@@ -34,12 +34,12 @@ History note: Introduced in ISO/TS 14812:2022
 | [motor vehicle](motor vehicle.md) | [motorized](motorized vehicle.md) [road vehicle](road vehicle.md) allowed to operate in the same [driving spaces](driving space.md) as motorized [passenger](passenger.md) cars |
 | [motor vehicle](motor vehicle.md) | [motorized](motorized vehicle.md) [road vehicle](road vehicle.md) allowed to operate in the same [driving spaces](driving space.md) as motorized [passenger](passenger.md) cars |
 | [motorized vehicle](motorized vehicle.md) | self-propelled [vehicle](vehicle.md) |
-| [nomadic vehicle input device](nomadic vehicle input device.md) | [input device](input device.md) that can be carried into, or in near proximity of, a [vehicle](vehicle.md) and [connected](connected.md) as desired |
+| [nomadic vehicle input device](nomadic vehicle input device.md) | [vehicle input device](vehicle input device.md) that can be carried into, or in near proximity of, a [vehicle](vehicle.md) and [connected](connected.md) as desired |
 | [non-biological entity](non-biological entity.md) | [material entity](material entity.md) that is not and has never been a living organism |
 | [non-road cycle](non-road cycle.md) | human-powered [vehicle](vehicle.md) not meeting the legal requirements to be driven in [cycle lanes](cycle lane.md) |
 | [non-road vehicle](non-road vehicle.md) | [vehicle](vehicle.md) not meeting the legal requirements to be driven in [traffic lanes](traffic lane.md) or [cycle lanes](cycle lane.md) of a [road network](road network.md) |
 | [person](person.md) | [biological entity](biological entity.md) that is a human being |
-| [remote vehicle input device](remote vehicle input device.md) | [input device](input device.md) designed to be electronically [connected](connected.md) to a [vehicle](vehicle.md) even when the vehicle is not in close proximity |
+| [remote vehicle input device](remote vehicle input device.md) | [vehicle input device](vehicle input device.md) designed to be electronically [connected](connected.md) to a [vehicle](vehicle.md) even when the vehicle is not in close proximity |
 | [road cycle](road cycle.md) | [vehicle](vehicle.md) meeting the legal requirements to operate in [cycle lanes](cycle lane.md) and [cycleways](cycleway.md) |
 | [road vehicle](road vehicle.md) | [vehicle](vehicle.md) meeting the requirements to operate within the [driving space](driving space.md) of a [road](road.md) |
 | [ultra-low-speed vehicle](ultra-low-speed vehicle.md) | [vehicle](vehicle.md) with a [design speed](design speed.md) that does not exceed [ultra-low vehicle speeds](ultra-low vehicle speed.md) |

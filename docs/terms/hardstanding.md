@@ -10,7 +10,7 @@ part of a paved [carriageway](carriageway.md) that is not a [traffic lane](traff
 
 Clause: 3.3.1.17
 
-EXAMPLE: n902d49f80fe4422680fb4b74ea8b63ceb10
+EXAMPLE: n3696715cd880487786593b7567fd6ecbb10
 
 Note 1 to entry: Hardstanding can include edges of a hard shoulder outside of designated lane markings, slips for future connector [roads](road.md), etc.
 

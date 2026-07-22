@@ -59,7 +59,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             owl:hasValue "transport provider"@en ;
             owl:onProperty :attrVehicleOperator ],
         :transportService ;
-    skos:definition "[transport service](transport service.md) that relies upon the same [resources](resource.md) to fulfil the [transport needs](transport need.md) of multiple unrelated [transport users](transport user.md) and where the [transport provider](transport provider.md) has the primary responsibility for the operation of the transport mode"@en ;
+    skos:definition "[transport service](transport service.md) that relies upon the same [resources](resource.md) to fulfil the [transport user needs](transport user need.md) of multiple unrelated [transport users](transport user.md) and where the [transport provider](transport provider.md) has the primary responsibility for the operation of the transport mode"@en ;
     skos:historyNote "Introduced in ISO/TS 14812:2022"@en ;
     skos:note "A shared transport service might not be dependent upon a vehicle and/or could be multi-modal. For example, a letter courier service could rely on walking and [public transport](public transport.md)."@en,
         "Responsibilities of the transport service can be further delegated to others. For example, a courier service relying on public transport would delegate the operation of the transport mode to the public transport operator."@en ;

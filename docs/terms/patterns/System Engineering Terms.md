@@ -8,6 +8,7 @@ Clause: 3.1.12
 
 - 3.1.12.1 — [use case](../use case.md)
 - 3.1.12.2 — [scenario](../scenario.md)
+- 3.1.12.3 — [role](../role.md)
 
 ---
 
