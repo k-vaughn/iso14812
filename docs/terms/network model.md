@@ -17,8 +17,8 @@ History note: Introduced in ISO/TS 14812:2022
 | Class | Description |
 | --- | --- |
 | [free-floating](free-floating.md) | <transport service> [network model](network model.md) where the [transport service](transport service.md) may be initiated and terminated at any [spatial location](spatial location.md) meeting basic criteria |
-| [station-based one-way](station-based one-way.md) | <transport service> [operational mode](operational mode.md) where the [transport service](transport service.md) is initiated and terminated at two different facilities managed by the [transport provider](transport provider.md) |
-| [station-based roundtrip](station-based roundtrip.md) | <transport service> [operational mode](operational mode.md) where the [transport service](transport service.md) is initiated and terminated at the same facility managed by the [transport provider](transport provider.md) |
+| [station-based one-way](station-based one-way.md) | <transport service> [operational model](operational model.md) where the [transport service](transport service.md) is initiated and terminated at two different facilities managed by the [transport provider](transport provider.md) |
+| [station-based roundtrip](station-based roundtrip.md) | <transport service> [operational model](operational model.md) where the [transport service](transport service.md) is initiated and terminated at the same facility managed by the [transport provider](transport provider.md) |
 
 
 ---

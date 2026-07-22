@@ -5,6 +5,12 @@ repo_url: https://github.com/ISO-TC204/iso14812
 nav:
 - TC204 on ISO.org: https://www.iso.org/committee/54706.html
 - TC 204 Home: https://isotc204.org/
+- Guides:
+  - Overview: guides/index.md
+  - Naming Conventions: guides/naming-conventions.md
+  - Ontology Formats: guides/ontology-formats.md
+  - Turtle: guides/turtle.md
+  - Website Generation: python/README.md
 - Vocabulary:
   - Home: index.md
   - Alphabetical Listing: terms/concept_registry.md

@@ -2,7 +2,7 @@
 
 # station-based roundtrip
 
-<transport service> [operational mode](operational mode.md) where the [transport service](transport service.md) is initiated and terminated at the same facility managed by the [transport provider](transport provider.md)
+<transport service> [operational model](operational model.md) where the [transport service](transport service.md) is initiated and terminated at the same facility managed by the [transport provider](transport provider.md)
 
 <object type="image/svg+xml" data="../../diagrams/station-based roundtrip.dot.svg">
     <img alt="station-based roundtrip Diagram" src="../../diagrams/station-based roundtrip.dot.png" /> <!-- Fallback for non-SVG browsers -->

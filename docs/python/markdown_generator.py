@@ -473,10 +473,21 @@ def update_mkdocs_nav(
         raise
 
     # Preserve leading external/site links; nest generated pages under Vocabulary.
-    prefix_nav = [
+    default_external_nav = [
         {"TC204 on ISO.org": "https://www.iso.org/committee/54706.html"},
         {"TC 204 Home": "https://isotc204.org/"},
     ]
+    guides_nav = {
+        "Guides": [
+            {"Overview": "guides/index.md"},
+            {"Naming Conventions": "guides/naming-conventions.md"},
+            {"Ontology Formats": "guides/ontology-formats.md"},
+            {"Turtle": "guides/turtle.md"},
+            {"Website Generation": "python/README.md"},
+        ]
+    }
+
+    prefix_nav = list(default_external_nav)
     existing_nav = config.get("nav") or []
     if isinstance(existing_nav, list) and existing_nav:
         preserved = []
@@ -486,9 +497,13 @@ def update_mkdocs_nav(
             key = next(iter(item))
             if key == "Vocabulary":
                 break
+            if key == "Guides":
+                continue  # replaced with canonical guides_nav below
             preserved.append(item)
         if preserved:
             prefix_nav = preserved
+
+    prefix_nav.append(guides_nav)
 
     vocabulary_nav = [
         {"Home": "index.md"},

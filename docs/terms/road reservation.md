@@ -14,7 +14,7 @@ Alternative preferred term: easement
 
 Note 1 to entry: Support includes physical equipment such as safety devices, signage and controller cabinets as well as access by maintenance vehicles and personnel.
 
-Note 2 to entry: The road reservation includes all [carriageways](carriageway.md) as well as width to allow for [roadside](roadside.md) devices, [shoulders](shoulder.md), [verges](verge.md), [footways](footway.md), drainage facilities, sound walls, slopes, embankments, etc.
+Note 2 to entry: The road reservation includes all [carriageways](carriageway.md) as well as width to allow for [roadside](roadside.md) devices, [shoulders](shoulder.md), [verges](verge.md), [footpaths](footpath.md), drainage facilities, sound walls, slopes, embankments, etc.
 
 History note: Introduced in ISO/TS 14812:2022
 

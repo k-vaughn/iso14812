@@ -18,7 +18,7 @@ History note: Introduced in ISO/TS 14812:2022
 
 | Class | Description |
 | --- | --- |
-| [ITS on-board unit](ITS on-board unit.md) | part of [on-board equipment](on-board equipment.md) that provides wireless connectivity to other [ITS components](ITS component.md) external to the [vehicle](vehicle.md) |
+| [ITS on-board unit](ITS on-board unit.md) | part of [ITS on-board equipment](ITS on-board equipment.md) that provides wireless connectivity to other [ITS components](ITS component.md) external to the [vehicle](vehicle.md) |
 | [roadside unit](roadside unit.md) | part of [connected vehicle roadside equipment](connected vehicle roadside equipment.md) that provides wireless connectivity to [vehicle systems](vehicle system.md) and/or [personal systems](personal system.md) |
 
 ## Relationships for connected unit

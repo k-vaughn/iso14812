@@ -24,14 +24,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :station-basedOne-way a owl:Class ;
     rdfs:subClassOf :networkModel ;
-    skos:definition "<transport service> [operational mode](operational mode.md) where the [transport service](transport service.md) is initiated and terminated at two different facilities managed by the [transport provider](transport provider.md)"@en ;
+    skos:definition "<transport service> [operational model](operational model.md) where the [transport service](transport service.md) is initiated and terminated at two different facilities managed by the [transport provider](transport provider.md)"@en ;
     skos:historyNote "Introduced in ISO/TS 14812:2022"@en ;
     skos:prefLabel "station-based one-way"@en ;
     :clause "3.5.10.3"@en .
 
 :station-basedRoundtrip a owl:Class ;
     rdfs:subClassOf :networkModel ;
-    skos:definition "<transport service> [operational mode](operational mode.md) where the [transport service](transport service.md) is initiated and terminated at the same facility managed by the [transport provider](transport provider.md)"@en ;
+    skos:definition "<transport service> [operational model](operational model.md) where the [transport service](transport service.md) is initiated and terminated at the same facility managed by the [transport provider](transport provider.md)"@en ;
     skos:historyNote "Introduced in ISO/TS 14812:2022"@en ;
     skos:prefLabel "station-based roundtrip"@en ;
     :clause "3.5.10.2"@en .
