@@ -18,8 +18,8 @@ History note: Introduced in ISO/TS 14812:2022
 
 | Class | Description |
 | --- | --- |
-| [in-vehicle driver](in-vehicle driver.md) | [driver](driver.md) that performs the [dynamic driving task](dynamic driving task.md) using the [vehicle's](vehicle.md) built-in [input devices](input device.md) to control the longitudinal and lateral movement of the vehicle |
-| [remote driver](remote driver.md) | [driver](driver.md) that performs the [dynamic driving task](dynamic driving task.md) without using the [vehicle's](vehicle.md) built-in [input devices](input device.md) to control the longitudinal and lateral movement of the vehicle |
+| [in-vehicle driver](in-vehicle driver.md) | [driver](driver.md) that performs the [dynamic driving task](dynamic driving task.md) using the [vehicle's](vehicle.md) built-in [input devices](built-in vehicle input device.md) to control the longitudinal and lateral movement of the vehicle |
+| [remote driver](remote driver.md) | [driver](driver.md) that performs the [dynamic driving task](dynamic driving task.md) without using the [vehicle's](vehicle.md) built-in [input devices](built-in vehicle input device.md) to control the longitudinal and lateral movement of the vehicle |
 
 ## Relationships for driver
 

@@ -144,6 +144,12 @@ From the repository root, under `docs/`:
 nav:
 - TC204 on ISO.org: https://www.iso.org/committee/54706.html
 - TC 204 Home: https://isotc204.org/
+- Guides:
+  - Overview: guides/index.md
+  - Naming Conventions: guides/naming-conventions.md
+  - Ontology Formats: guides/ontology-formats.md
+  - Turtle: guides/turtle.md
+  - Website Generation: python/README.md
 - Vocabulary:
   - Home: index.md
   - Alphabetical Listing: terms/concept_registry.md
@@ -154,7 +160,7 @@ nav:
       - <term>: terms/<term>.md
 ```
 
-Any top-level nav entries before `Vocabulary` are preserved when present; otherwise the two ISO/TC 204 links above are used as defaults.
+Any top-level nav entries before `Vocabulary` other than `Guides` are preserved when present; otherwise the two ISO/TC 204 links above are used as defaults. The **Guides** section is always rewritten to the canonical contributor-doc list.
 
 ## Typical workflow
 

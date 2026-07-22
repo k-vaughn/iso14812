@@ -130,7 +130,7 @@ This page lists all known terms in the ITS Vocabulary.
 | [high-speed vehicle](high-speed vehicle.md) | [vehicle](vehicle.md) with a [design speed](design speed.md) in the range of [high vehicle speeds](high vehicle speed.md) |
 | [immaterial entity](immaterial entity.md) | [entity](entity.md) that does not occupy three-dimensional space |
 | [implementation](implementation.md) | the process or the result of the process of translating a design into hardware components, software components, or both |
-| [in-vehicle driver](in-vehicle driver.md) | [driver](driver.md) that performs the [dynamic driving task](dynamic driving task.md) using the [vehicle's](vehicle.md) built-in [input devices](input device.md) to control the longitudinal and lateral movement of the vehicle |
+| [in-vehicle driver](in-vehicle driver.md) | [driver](driver.md) that performs the [dynamic driving task](dynamic driving task.md) using the [vehicle's](vehicle.md) built-in [input devices](built-in vehicle input device.md) to control the longitudinal and lateral movement of the vehicle |
 | [include](include.md) | <enterprise view> [relationship](relationship.md) where one [resource](resource.md) contains another resource |
 | [informal coordination](informal coordination.md) | <enterprise view> [interaction](interaction.md) between two [enterprise objects](enterprise object.md) governed by an understanding that is not documented in a formal agreement between the two parties |
 | [information flow](information flow.md) | information that is exchanged between [physical objects](physical object.md) |
@@ -158,7 +158,7 @@ This page lists all known terms in the ITS Vocabulary.
 | [ITS deployment architecture](ITS deployment architecture.md) | [deployment architecture](deployment architecture.md) for one or more [ITS services](ITS service.md) |
 | [ITS implementation](ITS implementation.md) | integration of each [physical object](physical object.md) necessary to implement one or more [ITS applications](ITS application.md) |
 | [ITS on-board equipment](ITS on-board equipment.md) | [vehicle system](vehicle system.md) that provides all ITS functionality on-board the [vehicle](vehicle.md) |
-| [ITS on-board unit](ITS on-board unit.md) | part of [on-board equipment](on-board equipment.md) that provides wireless connectivity to other [ITS components](ITS component.md) external to the [vehicle](vehicle.md) |
+| [ITS on-board unit](ITS on-board unit.md) | part of [ITS on-board equipment](ITS on-board equipment.md) that provides wireless connectivity to other [ITS components](ITS component.md) external to the [vehicle](vehicle.md) |
 | [ITS planning architecture](ITS planning architecture.md) | [planning architecture](planning architecture.md) for one or more [ITS services](ITS service.md) |
 | [ITS reference architecture](ITS reference architecture.md) | [reference architecture](reference architecture.md) for one or more [ITS services](ITS service.md) |
 | [ITS roadside equipment](ITS roadside equipment.md) | [field system](field system.md) that performs localized [ITS services](ITS service.md) |
@@ -289,7 +289,7 @@ This page lists all known terms in the ITS Vocabulary.
 | [realization](realization.md) | implementation of a system concept |
 | [reference architecture](reference architecture.md) | [architecture](architecture.md) that provides a template solution for [planning](planning architecture.md) and [deployment architectures](deployment architecture.md) |
 | [relationship](relationship.md) | <enterprise view> [element](element.md) that represents an association between two [resources](resource.md) |
-| [remote driver](remote driver.md) | [driver](driver.md) that performs the [dynamic driving task](dynamic driving task.md) without using the [vehicle's](vehicle.md) built-in [input devices](input device.md) to control the longitudinal and lateral movement of the vehicle |
+| [remote driver](remote driver.md) | [driver](driver.md) that performs the [dynamic driving task](dynamic driving task.md) without using the [vehicle's](vehicle.md) built-in [input devices](built-in vehicle input device.md) to control the longitudinal and lateral movement of the vehicle |
 | [remote vehicle input device](remote vehicle input device.md) | [vehicle input device](vehicle input device.md) designed to be electronically [connected](connected.md) to a [vehicle](vehicle.md) even when the vehicle is not in close proximity |
 | [requirement](requirement.md) | provision that contains criteria to be fulfilled |
 | [requirements specification](requirements specification.md) | document that specifies the requirements for a system or component |
@@ -338,8 +338,8 @@ This page lists all known terms in the ITS Vocabulary.
 | [spatial reference](spatial reference.md) | description of a [spatial location](spatial location.md) in the real world according to a defined reference system |
 | [speed](speed.md) | rate of change of a [material entity's](material entity.md) position with respect to a frame of reference |
 | [stakeholder](stakeholder.md) | <system> individual, team, organization, or [classes](class.md) thereof, having an interest in a [system](system.md) |
-| [station-based one-way](station-based one-way.md) | <transport service> [operational mode](operational mode.md) where the [transport service](transport service.md) is initiated and terminated at two different facilities managed by the [transport provider](transport provider.md) |
-| [station-based roundtrip](station-based roundtrip.md) | <transport service> [operational mode](operational mode.md) where the [transport service](transport service.md) is initiated and terminated at the same facility managed by the [transport provider](transport provider.md) |
+| [station-based one-way](station-based one-way.md) | <transport service> [operational model](operational model.md) where the [transport service](transport service.md) is initiated and terminated at two different facilities managed by the [transport provider](transport provider.md) |
+| [station-based roundtrip](station-based roundtrip.md) | <transport service> [operational model](operational model.md) where the [transport service](transport service.md) is initiated and terminated at the same facility managed by the [transport provider](transport provider.md) |
 | [support system](support system.md) | [ITS component](ITS component.md) that provides services in support of one or more other ITS components |
 | [surface transport system](surface transport system.md) | [transport system](transport system.md) designed to move [material entities](material entity.md) across the surface or near-surface of the Earth |
 | [system](system.md) | combination of interacting [elements](element.md) organized to achieve one or more stated purposes |

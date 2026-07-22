@@ -19,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             owl:onProperty :uses ;
             owl:someValuesFrom :built-inVehicleInputDevice ],
         :driver ;
-    skos:definition "[driver](driver.md) that performs the [dynamic driving task](dynamic driving task.md) using the [vehicle's](vehicle.md) built-in [input devices](input device.md) to control the longitudinal and lateral movement of the vehicle"@en ;
+    skos:definition "[driver](driver.md) that performs the [dynamic driving task](dynamic driving task.md) using the [vehicle's](vehicle.md) built-in [input devices](built-in vehicle input device.md) to control the longitudinal and lateral movement of the vehicle"@en ;
     skos:historyNote "Introduced in ISO/TS 14812:2022"@en ;
     skos:prefLabel "in-vehicle driver"@en ;
     :altPrefLabel "conventional driver"@en ;
@@ -44,7 +44,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                     owl:unionOf ( :nomadicVehicleInputDevice :remoteVehicleInputDevice ) ] ;
             owl:onProperty :uses ],
         :driver ;
-    skos:definition "[driver](driver.md) that performs the [dynamic driving task](dynamic driving task.md) without using the [vehicle's](vehicle.md) built-in [input devices](input device.md) to control the longitudinal and lateral movement of the vehicle"@en ;
+    skos:definition "[driver](driver.md) that performs the [dynamic driving task](dynamic driving task.md) without using the [vehicle's](vehicle.md) built-in [input devices](built-in vehicle input device.md) to control the longitudinal and lateral movement of the vehicle"@en ;
     skos:historyNote "Introduced in ISO/TS 14812:2022"@en ;
     skos:note "A remote driver can use a variety of physical input devices, but none that are built into the vehicle."@en ;
     skos:prefLabel "remote driver"@en ;
